@@ -60,25 +60,25 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
+      - layout: top-middle
         title: Ph.D. candidate
-        caption: present
-        sub_title: |
-          Electrical Engineering and Robotics Program
-          Korea Advanced Institute of Science and Technology, South Korea
-
+        sub_title: Electrical Engineering and Robotics Program
+        caption: Korea Advanced Institute of Science and Technology, South Korea
+        quote: 2019-present
+        
+          
       - layout: top-middle
         title: M.S. 
-        caption: 2019
         sub_title: Electrical Engineering 
-        quote: Bandung Institute of Technology, Indonesia
+        caption: Bandung Institute of Technology, Indonesia
+        quote: 2018-2019
 
 
       - layout: top-middle
         title: B.S. 
-        caption: 2018
         sub_title: Electrical Engineering 
-        quote: Bandung Institute of Technology, Indonesia
+        caption: Bandung Institute of Technology, Indonesia
+        quote: 2014-2018
 
   - title: Publications
     layout: text
