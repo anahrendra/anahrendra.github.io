@@ -67,9 +67,7 @@ content:
         caption: present
         sub_title: Electrical Engineering and Robotics Program
         quote: Korea Advanced Institute of Science and Technology, South Korea
-    
-    layout: list # Type of content section (list/text)
-    content:
+
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -78,8 +76,7 @@ content:
         sub_title: Electrical Engineering 
         quote: Bandung Institute of Technology, Indonesia
 
-    layout: list # Type of content section (list/text)
-    content:
+
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
