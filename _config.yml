@@ -61,9 +61,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-left
-        title: Ph.D. candidate in Electrical Engineering and Robotics Program
+        title: Ph.D. candidate
         caption: present
-        sub_title: Korea Advanced Institute of Science and Technology, South Korea
+        sub_title: |
+          Electrical Engineering and Robotics Program
+          Korea Advanced Institute of Science and Technology, South Korea
 
       - layout: top-middle
         title: M.S. 
