@@ -60,20 +60,20 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Ph.D. candidate
         caption: present
         sub_title: Electrical Engineering and Robotics Program
         quote: Korea Advanced Institute of Science and Technology, South Korea
 
-      - layout: left
+      - layout: top-middle
         title: M.S. 
         caption: 2019
         sub_title: Electrical Engineering 
         quote: Bandung Institute of Technology, Indonesia
 
 
-      - layout: left
+      - layout: top-middle
         title: B.S. 
         caption: 2018
         sub_title: Electrical Engineering 
@@ -84,13 +84,14 @@ content:
     content: | # this will include new lines to allow paragraphs
       
       <mark>International Journal</mark>
-      - <a href="" style="color: black;">Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones</a>
+      - <a href="" style="color: black;">*Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones*</a>
       
         **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, Hyun Myung
          
-        IEEE Robotics and Automation Letters, 2022 (Accepted) **(IEEE RA-L), 2022**
+        IEEE Robotics and Automation Letters, 2022 (Accepted) **(RA-L), 2022**
 
-      - <a href="https://ieeexplore.ieee.org/document/9444458" style="color: black;">Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay</a>
+
+      - <a href="https://ieeexplore.ieee.org/document/9444458" style="color: black;">*Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay*</a>
       
         Seung-Hyun Kong<span>&#42;</span>, **I Made Aswin Nahrendra**<span>&#42;</span>, Donghee Paek (<span>&#42;</span> Equal contribution)
          
@@ -99,13 +100,21 @@ content:
 
       
       <mark>International Conference</mark>
-      - <a href="https://ieeexplore.ieee.org/document/8988821" style="color: black;">Adaptive control of cyber-physical distillation column using data driven control approach</a>
+      - <a href="" style="color: black;">*Segmented Encoding for Sim2Real of RL-Based End-To-End Autonomous Driving*</a>
+      
+        Seung-Hwan Chung, Seung-Hyun Kong, Sangjae Cho, **I Made Aswin Nahrendra**
+         
+        IEEE Intelligent Vehicle Symposium **(IVS), 2022**
+
+
+      - <a href="https://ieeexplore.ieee.org/document/8988821" style="color: black;">*Adaptive control of cyber-physical distillation column using data driven control approach*</a>
       
         **I Made Aswin Nahrendra**, Pranoto Hidaya Rusmin, Egi Muhammad Idris Hidayat
          
         IEEE International Conference on Electrical Engineering and Informatics **(ICEEI), 2019**
 
-      - <a href="https://ieeexplore.ieee.org/document/8605492" style="color: black;">Engine control unit for 2 stroke internal combustion engine on medium altitude unmanned aerial vehicle</a>
+
+      - <a href="https://ieeexplore.ieee.org/document/8605492" style="color: black;">*Engine control unit for 2 stroke internal combustion engine on medium altitude unmanned aerial vehicle*</a>
       
         **I Made Aswin Nahrendra**, Widyawardana Adiprawita, Adrian Susanto, Stefanus Kevin Hadinata
          
