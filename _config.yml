@@ -88,6 +88,28 @@ content:
         sub_title: Electrical Engineering 
         quote: Bandung Institute of Technology, Indonesia
 
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      
+      <mark>International Journal</mark>
+      - <a href="https://ieeexplore.ieee.org/document/9618777" style="color: black;">Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones</a>
+      
+        **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, Hyun Myung
+         
+        IEEE Robotics and Automation Letters, 2022 (Accepted) **(IEEE RA-L), 2022**
+         
+
+      
+      <mark>International Conference</mark>
+      - <a href="https://ieeexplore.ieee.org/document/9618777" style="color: black;">Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones</a>
+      
+        **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, Hyun Myung
+         
+        IEEE Robotics and Automation Letters, 2022 (Accepted) **(IEEE RA-L), 2022**
+      
+      
+
     
   - title: Experience
     layout: list
