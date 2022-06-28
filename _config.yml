@@ -60,11 +60,10 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Ph.D. candidate
+      - layout: top-left
+        title: Ph.D. candidate in Electrical Engineering and Robotics Program
         caption: present
-        sub_title: Electrical Engineering and Robotics Program
-        quote: Korea Advanced Institute of Science and Technology, South Korea
+        sub_title: Korea Advanced Institute of Science and Technology, South Korea
 
       - layout: top-middle
         title: M.S. 
