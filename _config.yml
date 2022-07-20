@@ -85,7 +85,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       
       <mark>International Journal</mark>
-      - <a href="">*Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones*</a>
+      - <a href="https://ieeexplore.ieee.org/document/9822205">*Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones*</a>
       
         **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, Hyun Myung
          
@@ -103,7 +103,7 @@ content:
 
       
       <mark>International Conference</mark>
-      - <a href="">*Segmented Encoding for Sim2Real of RL-Based End-To-End Autonomous Driving*</a>
+      - <a href="https://ieeexplore.ieee.org/document/9827374">*Segmented Encoding for Sim2Real of RL-Based End-To-End Autonomous Driving*</a>
       
         Seung-Hwan Chung, Seung-Hyun Kong, Sangjae Cho, **I Made Aswin Nahrendra**
          
