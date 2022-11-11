@@ -146,12 +146,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       
-      <mark>International Journal</mark>
+      <mark>Competition</mark>
       - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*Winning Team of ADD Autonomous Drone Competition in Battlefield Environments*</a>
       
-        QAIST++ team, Urban Robotics Lab.
+        Team QAIST++, Urban Robotics Lab.
          
-        Future Challenge Defense Technology Contest **2022**
+        Future Challenge Defense Technology Contest, **2022**
 
       
 
