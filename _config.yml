@@ -87,7 +87,7 @@ content:
       <mark>International Journal</mark>
       - <a href="https://ieeexplore.ieee.org/document/9822205">*Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones*</a>
       
-        **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, Hyun Myung
+        **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, and Hyun Myung
          
         IEEE Robotics and Automation Letters **(RA-L), 2022**
         
@@ -103,6 +103,12 @@ content:
 
       
       <mark>International Conference</mark>
+      - <a href="https://arxiv.org/abs/2301.10602">*DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning*</a>
+      
+        **I Made Aswin Nahrendra**, Byeongho Yu, and Hyun Myung
+        
+        IEEE International Conference on Robotics and Automation **(ICRA), 2023** *[Accepted]*
+
       - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
       
         Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
