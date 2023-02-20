@@ -151,13 +151,23 @@ content:
   - title: Awards
     layout: text
     content: | # this will include new lines to allow paragraphs
+
+      <mark>Best Work Award</mark>
+      - <a>*Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations*</a>
+
+        Eungchang Mason Lee, **I Made Aswin Nahrendra**, Junho Choi, Seunghyun Lee, and Hyun Myung
       
-      <mark>Competition</mark>
-      - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*Winning Team of ADD Autonomous Drone Competition in Battlefield Environments*</a>
+        Korea Robotics Society Annual Conference **(KRoC) RED Show, 2023**
       
-        Team QAIST++, Urban Robotics Lab.
-         
+      <mark>The Only Team that Finished the Whole Course</mark>
+      - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*ADD Autonomous Drone Competition in Battlefield Environments*</a>
+      
+        Team QAIST++, Urban Robotics Lab
+
         Future Challenge Defense Technology Contest, **2022**
+
+         
+        
 
       
 
