@@ -153,7 +153,7 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       <mark>Winner</mark>
-      - <a>href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
+      - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
 
         Team DreamSTEP, Urban Robotics Lab @ KAIST
 
