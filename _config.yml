@@ -153,9 +153,9 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       <mark>Winner</mark>
-      - <a>*Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
+      - <a>href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
 
-        Team DreamSTEP, Urban Robotics Lab
+        Team DreamSTEP, Urban Robotics Lab @ KAIST
 
       <mark>Best Work Award</mark>
       - <a>*Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations*</a>
@@ -166,8 +166,8 @@ content:
       
       <mark>The Only Team that Finished the Whole Course</mark>
       - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*ADD Autonomous Drone Competition in Battlefield Environments*</a>
-      
-        Team QAIST++, Urban Robotics Lab
+       
+        Team QAIST++, Urban Robotics Lab @ KAIST
 
         Future Challenge Defense Technology Contest, **2022**
 
