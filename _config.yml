@@ -16,7 +16,7 @@ title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KA
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
