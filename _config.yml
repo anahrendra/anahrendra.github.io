@@ -161,17 +161,14 @@ content:
   
   - title: Awards
     layout: list
-    content: | # this will include new lines to allow paragraphs
+    content: 
 
       - layout: left
         title: |
             <img src="images/dreamstep.jpg" width="120px" margin-bottom="300%"> <br>
         link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
-        caption: |
-            <mark>Winner</mark>
-            - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
-
-              Team DreamSTEP, Urban Robotics Lab @ KAIST
+        caption: Winner
+        description: Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
 
       # <mark>Winner</mark>
       # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
