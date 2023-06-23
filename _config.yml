@@ -208,12 +208,13 @@ content:
                     Role: Design and control of collision-robust drone platform
 
       - layout: left
-        title: Future Challenge Defense Technology Contest
+        title: |
+            <img src="images/add_drone.png" width="240" margin-bottom="300%"> <br>
         sub_title: The Only Team that Finished the Whole Course
         caption: Team QAIST++ of KAIST
         link: https://www.youtube.com/watch?v=GliSRAUgi2s
         description: | 
-                    ADD Autonomous Drone Competition in Battlefield Environments
+                    Future Challenge Defense Technology Contest 2022
 
                     Role: Design and control of collision-robust drone platform
 
