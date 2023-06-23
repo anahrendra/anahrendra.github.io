@@ -163,24 +163,34 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      <mark>Winner</mark>
-      - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
+      - layout: left
+        title: |
+            <img src="images/dreamstep.jpg" width="120px" margin-bottom="300%"> <br>
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
+        caption: |
+            <mark>Winner</mark>
+            - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
 
-        Team DreamSTEP, Urban Robotics Lab @ KAIST
+              Team DreamSTEP, Urban Robotics Lab @ KAIST
 
-      <mark>Best Work Award</mark>
-      - <a>*Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations*</a>
+      # <mark>Winner</mark>
+      # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
 
-        Eungchang Mason Lee, **I Made Aswin Nahrendra**, Junho Choi, Seunghyun Lee, and Hyun Myung
+      #   Team DreamSTEP, Urban Robotics Lab @ KAIST
+
+      # <mark>Best Work Award</mark>
+      # - <a>*Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations*</a>
+
+      #   Eungchang Mason Lee, **I Made Aswin Nahrendra**, Junho Choi, Seunghyun Lee, and Hyun Myung
       
-        Korea Robotics Society Annual Conference **(KRoC) RED Show, 2023**
+      #   Korea Robotics Society Annual Conference **(KRoC) RED Show, 2023**
       
-      <mark>The Only Team that Finished the Whole Course</mark>
-      - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*ADD Autonomous Drone Competition in Battlefield Environments*</a>
+      # <mark>The Only Team that Finished the Whole Course</mark>
+      # - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*ADD Autonomous Drone Competition in Battlefield Environments*</a>
        
-        Team QAIST++, Urban Robotics Lab @ KAIST
+      #   Team QAIST++, Urban Robotics Lab @ KAIST
 
-        Future Challenge Defense Technology Contest, **2022**
+      #   Future Challenge Defense Technology Contest, **2022**
 
          
         
