@@ -166,8 +166,9 @@ content:
       - layout: left
         title: |
             <img src="images/dreamstep.jpg" width="120px" margin-bottom="300%"> <br>
+        sub_title: Winner
+        caption: Team DreamStep of KAIST
         link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
-        caption: Winner
         description: Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
 
       # <mark>Winner</mark>
