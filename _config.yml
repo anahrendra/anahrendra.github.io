@@ -189,7 +189,7 @@ content:
         caption: Team DreamStep of KAIST
         link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
         description: | 
-                      Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
+                      ### Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
 
                       Role: Robust locomotion control using DreamWaQ and DreamRiser
 
@@ -201,7 +201,7 @@ content:
         caption: Team QAIST++ of KAIST
         link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
         description: |
-                    KROC 2023 RED Show
+                    ### KROC 2023 RED Show
 
                     Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
 
@@ -214,7 +214,7 @@ content:
         caption: Team QAIST++ of KAIST
         link: https://www.youtube.com/watch?v=GliSRAUgi2s
         description: | 
-                    Future Challenge Defense Technology Contest 2022
+                    ### Future Challenge Defense Technology Contest 2022
 
                     Role: Design and control of collision-robust drone platform
 
