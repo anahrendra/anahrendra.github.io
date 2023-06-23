@@ -160,7 +160,7 @@ content:
       
   
   - title: Awards
-    layout: text
+    layout: list
     content: | # this will include new lines to allow paragraphs
 
       - layout: left
