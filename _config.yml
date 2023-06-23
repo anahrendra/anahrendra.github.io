@@ -173,19 +173,18 @@ content:
 
 
       - layout: left
-        title: |
-            <img src="images/dreamstep.jpg" width="120px" margin-bottom="300%"> <br>
+        title: KROC 2023 RED Show
         sub_title: Best Work Award
         caption: Team QAIST++
         link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
-        description: Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations
+        description: Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
 
       - layout: left
         title: Future Challenge Defense Technology Contest
         sub_title: The Only Team that Finished the Whole Course
         caption: Team QAIST++
         link: https://www.youtube.com/watch?v=GliSRAUgi2s
-        description: Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations
+        description: ADD Autonomous Drone Competition in Battlefield Environments
 
       # <mark>Winner</mark>
       # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
