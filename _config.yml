@@ -94,11 +94,11 @@ content:
 
                     IEEE International Conference on Robotics and Automation **(ICRA), 2023**
 
-                    <a href="https://arxiv.org/abs/2301.10602">Paper</a> | <a href="https://sites.google.com/view/dreamwaq">Project</a>s
+                    <a href="https://arxiv.org/abs/2301.10602">Paper</a> | <a href="https://sites.google.com/view/dreamwaq">Project</a>
 
       - layout: left
         title: |
-            <img src="images/dreamriser.pdf" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamriser.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
                     Robust Recovery Motion Control for Quadrupedal Robots via Learned Terrain Imagination
@@ -107,7 +107,7 @@ content:
 
                     Experiment-oriented Locomotion and Manipulation Research Workshop @ Robotics: Science and Systems **(RSS), 2023**
 
-                    <a href="https://arxiv.org/abs/2306.12712">Paper</a> | <a href="https://sites.google.com/view/dreamriser">Project</a>s
+                    <a href="https://arxiv.org/abs/2306.12712">Paper</a> | <a href="https://sites.google.com/view/dreamriser">Project</a>
 
       - layout: left
         title: |
