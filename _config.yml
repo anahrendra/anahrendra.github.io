@@ -85,11 +85,14 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/dreamwaq.jpg" width="120px" margin-bottom="300%"> <br>
-        sub_title: Paper Projeect
+            <img src="images/dreamwaq.jpeg" width="120px" margin-bottom="300%"> <br>
+        sub_title: |
+                  <a href="https://arxiv.org/abs/2301.10602">Paper</a> | Project
         description: |
                     DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
+
                     **I Made Aswin Nahrendra**, Byeongho Yu, and Hyun Myung
+
                     IEEE International Conference on Robotics and Automation **(ICRA), 2023**
 
 
