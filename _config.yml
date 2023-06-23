@@ -80,7 +80,7 @@ content:
         caption: Bandung Institute of Technology, Indonesia
         quote: 2014-2018
 
-  - title: Publications
+  - title: Research Highlights
     layout: list
     content:
       - layout: left
@@ -94,7 +94,7 @@ content:
 
                     IEEE International Conference on Robotics and Automation **(ICRA), 2023**
 
-                    <a href="https://arxiv.org/abs/2301.10602">Paper</a> | <a href="https://sites.google.com/view/dreamwaq">Project</a>
+                    <a href="https://arxiv.org/abs/2301.10602">Paper</a>  <a href="https://sites.google.com/view/dreamwaq">Project</a>
 
       - layout: left
         title: |
@@ -107,7 +107,7 @@ content:
 
                     Experiment-oriented Locomotion and Manipulation Research Workshop @ Robotics: Science and Systems **(RSS), 2023**
 
-                    <a href="https://arxiv.org/abs/2306.12712">Paper</a> | <a href="https://sites.google.com/view/dreamriser">Project</a>
+                    <a href="https://arxiv.org/abs/2306.12712">Paper</a>  <a href="https://sites.google.com/view/dreamriser">Project</a>
 
       - layout: left
         title: |
@@ -125,22 +125,16 @@ content:
                     <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
 
 
-  - title: Publications
+  - title: Other Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
       
-
-
-
       - <a href="https://ieeexplore.ieee.org/document/9444458">*Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay*</a>
       
         Seung-Hyun Kong<span>&#42;</span>, **I Made Aswin Nahrendra**<span>&#42;</span>, Donghee Paek (<span>&#42;</span> Equal contribution)
          
         **IEEE Access, 2021**
          
-
-      
-
 
       - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
       
@@ -190,26 +184,38 @@ content:
 
       - layout: left
         title: |
-            <img src="images/dreamstep.jpg" width="120px" margin-bottom="300%"> <br>
+            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
         sub_title: Winner
         caption: Team DreamStep of KAIST
         link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
-        description: Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
+        description: | 
+                      Autonomous Quadrupedal Robot Challenge in ICRA 2023, London
+
+                      Role: Robust locomotion control using DreamWaQ and DreamRiser
 
 
       - layout: left
-        title: KROC 2023 RED Show
+        title: |
+            <img src="images/kroc_2023.png" width="240" margin-bottom="300%"> <br>
         sub_title: Best Work Award
-        caption: Team QAIST++
+        caption: Team QAIST++ of KAIST
         link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
-        description: Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
+        description: |
+                    KROC 2023 RED Show
+
+                    Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
+
+                    Role: Design and control of collision-robust drone platform
 
       - layout: left
         title: Future Challenge Defense Technology Contest
         sub_title: The Only Team that Finished the Whole Course
-        caption: Team QAIST++
+        caption: Team QAIST++ of KAIST
         link: https://www.youtube.com/watch?v=GliSRAUgi2s
-        description: ADD Autonomous Drone Competition in Battlefield Environments
+        description: | 
+                    ADD Autonomous Drone Competition in Battlefield Environments
+
+                    Role: Design and control of collision-robust drone platform
 
       # <mark>Winner</mark>
       # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
