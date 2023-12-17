@@ -129,7 +129,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - <a href="https://ieeexplore.ieee.org/document/9444458">*Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay*</a>
+      - <a>*TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
       
         Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung (<span>&#42;</span> Best paper awarded)
          
