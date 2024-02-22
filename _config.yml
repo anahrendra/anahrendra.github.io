@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: I Made Aswin Nahrendra
-title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KAIST)
+title: Ph.D. at Korea Advanced Institute of Science and Technology (KAIST)
 # email: anahrendra
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -61,7 +61,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Ph.D. candidate
+        title: Ph.D.
         sub_title: Electrical Engineering and Robotics Program
         caption: Korea Advanced Institute of Science and Technology, South Korea
         quote: Sep. 2019 - Feb. 2024
