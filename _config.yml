@@ -80,6 +80,16 @@ content:
         caption: Bandung Institute of Technology, Indonesia
         quote: Aug. 2014 - Jul. 2018
 
+  - title: Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Graduate Research Assistant
+        sub_title: KAIST, Rep. of Korea
+        quote: Sep. 2019 - Feb. 2024
+      
+        
+
   - title: Research Highlights
     layout: list
     content:
