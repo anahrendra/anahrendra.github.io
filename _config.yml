@@ -105,7 +105,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamwaqpp.jpeg" width="240px" margin-bottom="300%"> <br>
                   
         description: |
                     ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
