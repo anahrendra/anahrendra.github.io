@@ -105,19 +105,6 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/dreamwaqpp.jpeg" width="240px" margin-bottom="300%"> <br>
-                  
-        description: |
-                    ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
-
-                    **I Made Aswin Nahrendra**, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
-
-                    **under review**
-
-                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
-
-      - layout: left
-        title: |
             <img src="images/dreamwaq.jpeg" width="240px" margin-bottom="300%"> <br>
                   
         description: |
