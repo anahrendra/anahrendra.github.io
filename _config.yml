@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: I Made Aswin Nahrendra
+title: Postdoctoral Researcher at Korea Advanced Institute of Science and Technology (KAIST)
+# email: anahrendra
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  anahrendra
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: i-made-aswin-nahrendra
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+googlescholar_username: p-xKCnIAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +50,254 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am a postdoctoral research in the Urban Robotics Lab. at KAIST. I obtained my Ph.D in the [School of Electrical Engineering](https://ee.kaist.ac.kr/) and  [Robotics Program](https://rp.kaist.ac.kr/), [KAIST](https://kaist.ac.kr/kr/). 
+  During my PhD course, I worked with Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/) at the [Urban Robotics Lab.](https://urobot.kaist.ac.kr)
+  My current research interests lie in the area of control, reinforcement learning, and the interplay between them for highly resilient field robotics applications.
 
 content:
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Ph.D.
+        sub_title: Electrical Engineering and Robotics Program
+        caption: Korea Advanced Institute of Science and Technology, South Korea
+        quote: Sep. 2019 - Feb. 2024
+        
+          
+      - layout: top-middle
+        title: M.S. 
+        sub_title: Electrical Engineering 
+        caption: Bandung Institute of Technology, Indonesia
+        quote: Aug. 2018- Jul. 2019
+
+
+      - layout: top-middle
+        title: B.S. 
+        sub_title: Electrical Engineering 
+        caption: Bandung Institute of Technology, Indonesia
+        quote: Aug. 2014 - Jul. 2018
+
+  - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+        sub_title: Postdoctoral Researcher
+        caption: KAIST, Rep. of Korea
+        quote: Sep. 2024 - present
+
+      - layout: left
+        sub_title: Research Intern
+        caption: Sony AI, Japan
+        quote: Jan. 2024 - Jul. 2024
+
+      - layout: left
+        sub_title: Graduate Research Assistant
+        caption: KAIST, Rep. of Korea
+        quote: Sep. 2019 - Feb. 2024
+      
+        
+
+  - title: Research Highlights
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+      - layout: left
+        title: |
+            <img src="images/dreamwaq.jpeg" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning***
+
+                    **I Made Aswin Nahrendra**, Byeongho Yu, and Hyun Myung
+
+                    IEEE International Conference on Robotics and Automation **(ICRA), 2023**
+
+                    <a href="https://arxiv.org/abs/2301.10602">Paper</a>  <a href="https://sites.google.com/view/dreamwaq">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/dreamriser.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***Robust Recovery Motion Control for Quadrupedal Robots via Learned Terrain Imagination***
+
+                    **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, Hyungtae Lim, and Hyun Myung
+
+                    Experiment-oriented Locomotion and Manipulation Research Workshop @ Robotics: Science and Systems **(RSS), 2023**
+
+                    <a href="https://arxiv.org/abs/2306.12712">Paper</a>  <a href="https://sites.google.com/view/dreamriser">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/retrorl.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones***
+
+                    **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, and Hyun Myung
+         
+                    IEEE Robotics and Automation Letters **(RA-L), 2022**
+                    
+                    IEEE/RSJ International Conference on Intelligent Robot and Systems **(IROS), 2022** *[Oral presentation]*
+
+                    <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
+
+
+  - title: Other Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - <a>*TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
+      
+        Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung (Best paper awarded)
+         
+        11th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2023**
+      
+      - <a href="https://ieeexplore.ieee.org/document/9444458">*Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay*</a>
+      
+        Seung-Hyun Kong<span>&#42;</span>, **I Made Aswin Nahrendra**<span>&#42;</span>, Donghee Paek (<span>&#42;</span> Equal contribution)
+         
+        **IEEE Access, 2021**
+         
+
+      - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
+      
+        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
+         
+        10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+
+
+      - <a>*A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild*</a>
+      
+        Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
+         
+        International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster presentation]*
+
+
+      - <a>*Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism*</a>
+      
+        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
+         
+        International Conference on Control, Automation, and System **(ICCAS), 2022**
+        
+
+      - <a href="https://ieeexplore.ieee.org/document/9827374">*Segmented Encoding for Sim2Real of RL-Based End-To-End Autonomous Driving*</a>
+      
+        Seung-Hwan Chung, Seung-Hyun Kong, Sangjae Cho, **I Made Aswin Nahrendra**
+         
+        IEEE Intelligent Vehicle Symposium **(IVS), 2022**
+
+
+      - <a href="https://ieeexplore.ieee.org/document/8988821">*Adaptive Control of Cyber-Physical Distillation Column Using Data Driven Control Approach*</a>
+      
+        **I Made Aswin Nahrendra**, Pranoto Hidaya Rusmin, Egi Muhammad Idris Hidayat
+         
+        IEEE International Conference on Electrical Engineering and Informatics **(ICEEI), 2019**
+
+
+      - <a href="https://ieeexplore.ieee.org/document/8605492">*Engine Control Unit for 2 Stroke Internal Combustion Engine on Medium Altitude Unmanned Aerial Vehicle*</a>
+      
+        **I Made Aswin Nahrendra**, Widyawardana Adiprawita, Adrian Susanto, Stefanus Kevin Hadinata
+         
+        IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
+      
+  
+  - title: Awards
+    layout: list
+    content: 
+
+      - layout: left
+        title: |
+            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
+        sub_title: Winner
+        caption: Team DreamStep of KAIST
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
+        description: | 
+                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
+
+                      Role: Robust locomotion control using DreamWaQ and DreamRiser
+
+
+      - layout: left
+        title: |
+            <img src="images/kroc_2023.png" width="240" margin-bottom="300%"> <br>
+        sub_title: Best Work Award
+        caption: Team QAIST++ of KAIST
+        link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
+        description: |
+                    ***KROC 2023 RED Show***
+
+                    Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
+
+                    Role: Design and control of collision-robust drone platform
+
+      - layout: left
+        title: |
+            <img src="images/add_drone.png" width="240" margin-bottom="300%"> <br>
+        sub_title: The Only Team that Finished the Whole Course
+        caption: Team QAIST++ of KAIST
+        link: https://www.youtube.com/watch?v=GliSRAUgi2s
+        description: | 
+                    ***Future Challenge Defense Technology Contest 2022***
+
+                    Role: Design and control of collision-robust drone platform
+
+      # <mark>Winner</mark>
+      # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
+
+      #   Team DreamSTEP, Urban Robotics Lab @ KAIST
+
+      # <mark>Best Work Award</mark>
+      # - <a>*Autonomous Flying Drone for Unmanned Reconnaissance in Battlefield Situations*</a>
+
+      #   Eungchang Mason Lee, **I Made Aswin Nahrendra**, Junho Choi, Seunghyun Lee, and Hyun Myung
+      
+      #   Korea Robotics Society Annual Conference **(KRoC) RED Show, 2023**
+      
+      # <mark>The Only Team that Finished the Whole Course</mark>
+      # - <a href="https://www.youtube.com/watch?v=GliSRAUgi2s">*ADD Autonomous Drone Competition in Battlefield Environments*</a>
+       
+      #   Team QAIST++, Urban Robotics Lab @ KAIST
+
+      #   Future Challenge Defense Technology Contest, **2022**
+
+         
+        
+
+      
+
+    
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: right
+  #       title: Company name
+  #       sub_title: Job title
+  #       caption: Date Range (eg. November 2016 - present)
+  #       link: Link to company (optional)
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of role
+  # - title: Education
+  #   layout: list
+  #   content:
+  #     - layout: top-right
+  #       title: Institution name
+  #       sub_title: Qualifications (eg. BA Performing Arts)
+  #       caption: Date Range (eg. 2016 - 2019)
+  #       quote: >
+  #         Short institution or course description (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of qualification
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
