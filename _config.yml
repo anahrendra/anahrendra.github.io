@@ -85,17 +85,17 @@ content:
     content:
       - layout: left
         sub_title: Postdoctoral Researcher
-        caption: <a href="https://www.kaist.ac.kr/en/">KAIST.</a>, Rep. of Korea
+        caption: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Rep. of Korea
         quote: Sep. 2024 - present
 
       - layout: left
         sub_title: Research Intern
-        caption: Sony AI, Japan
+        caption: <a href="https://ai.sony/">Sony AI</a>, Japan
         quote: Jan. 2024 - Jul. 2024
 
       - layout: left
         sub_title: Graduate Research Assistant
-        caption: <a href="https://www.kaist.ac.kr/en/">KAIST.</a>, Rep. of Korea
+        caption: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Rep. of Korea
         quote: Sep. 2019 - Feb. 2024
       
         
