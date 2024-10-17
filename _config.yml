@@ -108,7 +108,7 @@ content:
             <img src="images/dreamwaq.jpeg" width="240px" margin-bottom="300%"> <br>
                   
         description: |
-                    ***DreamWaqQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning***
+                    ***DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning***
 
                     **I Made Aswin Nahrendra**, Byeongho Yu, and Hyun Myung
 
@@ -149,13 +149,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-    - <a href="https://ieeexplore.ieee.org/abstract/document/10597508">*3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization*</a>
-
-      Seungjae Lee, Minho Oh, I Made Aswin Nahrendra, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
-
-      IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
-
-      - <a>*TOSS Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
+      - <a>*TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
       
         Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung (Best paper awarded)
          
