@@ -109,10 +109,13 @@ content:
                   
         description: |
                     ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
+
                     **I Made Aswin Nahrendra**, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
+
                     **under review**
-                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
                     
+                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
+
       - layout: left
         title: |
             <img src="images/dreamwaq.jpeg" width="240px" margin-bottom="300%"> <br>
@@ -158,6 +161,12 @@ content:
   - title: Other Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
+
+      - <a href="https://ieeexplore.ieee.org/abstract/document/10597508">*3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization*</a>
+
+        Seungjae Lee, Minho Oh, I Made Aswin Nahrendra, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
+
+        IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
 
       - <a>*TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
       
