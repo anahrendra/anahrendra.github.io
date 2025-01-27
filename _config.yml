@@ -162,9 +162,15 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
+      - <a href="https://trg-planner.github.io/">*TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigationy*</a>
+      
+        Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung 
+         
+        **IEEE RA-L, 2025**
+
       - <a href="https://ieeexplore.ieee.org/abstract/document/10597508">*3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization*</a>
 
-        Seungjae Lee, Minho Oh, I Made Aswin Nahrendra, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
+        Seungjae Lee, Minho Oh, **I Made Aswin Nahrendra**, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
 
         IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
 
