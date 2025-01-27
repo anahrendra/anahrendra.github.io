@@ -162,7 +162,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - <a href="https://trg-planner.github.io/">*TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigationy*</a>
+      - <a href="https://trg-planner.github.io/">*TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation*</a>
       
         Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung 
          
