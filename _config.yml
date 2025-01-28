@@ -156,19 +156,27 @@ content:
                     IEEE/RSJ International Conference on Intelligent Robot and Systems **(IROS), 2022** *[Oral presentation]*
 
                     <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
+  
+  - title: Other Publications
+    layout: list
+    content:
+      - layout: left
+        title: |
+            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
+
+                    Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
+
+                    IEEE International Conference on Robotics and Automation **(ICRA), 2025**
+
+                    <a href="https://dreamflex.github.io">Project</a>
 
 
   - title: Other Publications
-    layout: text
+    layout: list
     content: | # this will include new lines to allow paragraphs
-
-      - layout: left
-        title: |
-            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
-        description: | 
-                      <a href="https://dreamflex.github.io/">*DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
-                      Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung 
-                      IEEE International Conference on Robotics and Automation **(ICRA), 2025**
 
       - <a href="https://dreamflex.github.io/">*DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
       
