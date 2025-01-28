@@ -257,7 +257,7 @@ content:
 
 
   - title: Other Publications
-    layout: list
+    layout: text
     content: | # this will include new lines to allow paragraphs
 
       - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
