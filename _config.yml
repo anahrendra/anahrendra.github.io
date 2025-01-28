@@ -86,10 +86,13 @@ content:
       - layout: left
         title: |
             <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
-        sub_title: Postdoctoral Researcher
-        caption: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Rep. of Korea
-        quote: Sep. 2024 - present
+        description: |
+                    **Postdoctoral Researcher**
 
+                    *KAIST*, Rep. of Korea
+
+                    Sep. 2024 - present
+                    
       - layout: left
         sub_title: Research Intern
         caption: <a href="https://ai.sony/">Sony AI</a>, Japan
