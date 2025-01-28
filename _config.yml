@@ -162,7 +162,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      layout: left
+      - layout: left
         title: |
             <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
         description: | 
