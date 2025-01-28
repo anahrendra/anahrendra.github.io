@@ -84,6 +84,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: |
+            <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
         sub_title: Postdoctoral Researcher
         caption: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Rep. of Korea
         quote: Sep. 2024 - present
