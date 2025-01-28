@@ -238,6 +238,25 @@ content:
 
                     International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster]*
 
+      - layout: left
+        title: |
+            <img src="images/estimator.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild***
+
+                    Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
+
+                    International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster]*
+
+      - layout: left
+        description: |
+                    ***Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism***
+
+                    Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
+
+                    International Conference on Control, Automation, and System **(ICCAS), 2022**
+
 
   - title: Publications
     layout: list
