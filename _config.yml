@@ -213,6 +213,46 @@ content:
                     **Best paper award**
 
                     <a href="https://arxiv.org/pdf/2408.05453">Paper</a>
+
+  - title: Awards
+    layout: list
+    content: 
+
+      - layout: left
+        title: |
+            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
+        sub_title: Winner
+        caption: Team DreamStep of KAIST
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
+        description: | 
+                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
+
+                      Role: Robust locomotion control using DreamWaQ and DreamRiser
+
+
+      - layout: left
+        title: |
+            <img src="images/kroc_2023.png" width="240" margin-bottom="300%"> <br>
+        sub_title: Best Work Award
+        caption: Team QAIST++ of KAIST
+        link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
+        description: |
+                    ***KROC 2023 RED Show***
+
+                    Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
+
+                    Role: Design and control of collision-robust drone platform
+
+      - layout: left
+        title: |
+            <img src="images/add_drone.png" width="240" margin-bottom="300%"> <br>
+        sub_title: The Only Team that Finished the Whole Course
+        caption: Team QAIST++ of KAIST
+        link: https://www.youtube.com/watch?v=GliSRAUgi2s
+        description: | 
+                    ***Future Challenge Defense Technology Contest 2022***
+
+                    Role: Design and control of collision-robust drone platform
                     
 
 
@@ -269,45 +309,7 @@ content:
         IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
       
   
-  - title: Awards
-    layout: list
-    content: 
-
-      - layout: left
-        title: |
-            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
-        sub_title: Winner
-        caption: Team DreamStep of KAIST
-        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
-        description: | 
-                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
-
-                      Role: Robust locomotion control using DreamWaQ and DreamRiser
-
-
-      - layout: left
-        title: |
-            <img src="images/kroc_2023.png" width="240" margin-bottom="300%"> <br>
-        sub_title: Best Work Award
-        caption: Team QAIST++ of KAIST
-        link: https://urobot.kaist.ac.kr/announcement/?uid=346&mod=document&pageid=1
-        description: |
-                    ***KROC 2023 RED Show***
-
-                    Autonomous Flying Drone for Unmanned Reconnaissance in Cluttered Situations
-
-                    Role: Design and control of collision-robust drone platform
-
-      - layout: left
-        title: |
-            <img src="images/add_drone.png" width="240" margin-bottom="300%"> <br>
-        sub_title: The Only Team that Finished the Whole Course
-        caption: Team QAIST++ of KAIST
-        link: https://www.youtube.com/watch?v=GliSRAUgi2s
-        description: | 
-                    ***Future Challenge Defense Technology Contest 2022***
-
-                    Role: Design and control of collision-robust drone platform
+  
 
       # <mark>Winner</mark>
       # - <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges"> *Autonomous Quadrupedal Robot Challenge in ICRA 2023, London*</a>
