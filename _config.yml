@@ -162,6 +162,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
+      - <a href="https://dreamflex.github.io/">*TRG-planner: DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
+      
+        Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung 
+         
+        IEEE International Conference on Robotics and Automation **(ICRA), 2025**
+
       - <a href="https://trg-planner.github.io/">*TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation*</a>
       
         Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung 
