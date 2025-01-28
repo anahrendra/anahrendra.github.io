@@ -162,7 +162,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - <a href="https://dreamflex.github.io/">*TRG-planner: DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
+      - <a href="https://dreamflex.github.io/">*DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
       
         Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung 
          
