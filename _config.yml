@@ -173,49 +173,75 @@ content:
 
                     <a href="https://dreamflex.github.io">Project</a>
 
+      - layout: left
+        title: |
+            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
 
-  - title: Other Publications
+        description: |
+                    ***TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation***
+
+                    Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung
+
+                    IEEE Robotics and Automation Letters **(RA-L), 2025**
+
+                    <a href="https://ieeexplore.ieee.org/document/10819646">Paper</a> <a href="https://trg-planner.github.io">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/divergence.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization***
+
+                    Seungjae Lee, Minho Oh, **I Made Aswin Nahrendra**, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
+
+                    IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
+
+                    <a href="https://ieeexplore.ieee.org/document/10597508">Paper</a>
+
+      - layout: left
+        title: |
+            <img src="images/toss.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping***
+
+                    Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung *(Best paper award)*
+
+                    IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
+
+                    *(Best paper award)*
+
+                    <a href="https://arxiv.org/pdf/2408.05453">Paper</a>
+
+      - layout: left
+        title: |
+            <img src="images/perching.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter***
+
+                    Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
+
+                    10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+
+                    <a href="10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**">Paper</a>
+
+      - layout: left
+        title: |
+            <img src="images/estimator.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild***
+
+                    Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
+
+                    International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster]*
+
+
+  - title: Publications
     layout: list
     content: | # this will include new lines to allow paragraphs
-
-      - <a href="https://dreamflex.github.io/">*DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains*</a>
-      
-        Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung 
-         
-        IEEE International Conference on Robotics and Automation **(ICRA), 2025**
-
-      - <a href="https://trg-planner.github.io/">*TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation*</a>
-      
-        Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung 
-         
-        IEEE Robotics and Automation Letters **(RA-L), 2025**
-
-      - <a href="https://ieeexplore.ieee.org/abstract/document/10597508">*3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization*</a>
-
-        Seungjae Lee, Minho Oh, **I Made Aswin Nahrendra**, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
-
-        IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
-
-      - <a>*TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping*</a>
-      
-        Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung *(Best paper award)*
-         
-        11th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2023**
-
-      - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
-      
-        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
-         
-        10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
-
-
-      - <a>*A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild*</a>
-      
-        Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
-         
-        International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster presentation]*
-
-
       - <a>*Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism*</a>
       
         Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
