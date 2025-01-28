@@ -157,7 +157,7 @@ content:
 
                     <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
   
-  - title: Other Publications
+  - title: Selected Publications
     layout: list
     content:
       - layout: left
@@ -213,54 +213,27 @@ content:
                     *(Best paper award)*
 
                     <a href="https://arxiv.org/pdf/2408.05453">Paper</a>
-
-      - layout: left
-        title: |
-            <img src="images/perching.png" width="240px" margin-bottom="300%"> <br>
-
-        description: |
-                    ***Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter***
-
-                    Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
-
-                    10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
-
-                    <a href="10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**">Paper</a>
-
-      - layout: left
-        title: |
-            <img src="images/estimator.png" width="240px" margin-bottom="300%"> <br>
-
-        description: |
-                    ***A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild***
-
-                    Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
-
-                    International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster]*
-
-      - layout: left
-        title: |
-            <img src="images/estimator.png" width="240px" margin-bottom="300%"> <br>
-
-        description: |
-                    ***A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild***
-
-                    Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
-
-                    International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster]*
-
-      - layout: left
-        description: |
-                    ***Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism***
-
-                    Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
-
-                    International Conference on Control, Automation, and System **(ICCAS), 2022**
+                    
 
 
-  - title: Publications
+  - title: Other Publications
     layout: list
     content: | # this will include new lines to allow paragraphs
+
+      - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
+      
+        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
+         
+        10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+
+
+      - <a>*A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild*</a>
+      
+        Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
+         
+        International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster presentation]*
+
+
       - <a>*Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism*</a>
       
         Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
