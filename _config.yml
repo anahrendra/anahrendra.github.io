@@ -268,8 +268,8 @@ content:
 
                     Role: Design and control of collision-robust drone platform
 
-      - layout: text
-        content: IEEE ICRA 2023 RAS Travel Grant
+      - layout: left
+        caption: IEEE ICRA 2023 RAS Travel Grant
 
                     
 
