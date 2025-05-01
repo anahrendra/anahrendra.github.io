@@ -322,8 +322,11 @@ content:
          
         IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
 
-      - test
-      
+  - title: Academic Services
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+      - Reviewer
   
   
 
