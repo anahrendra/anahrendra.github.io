@@ -322,7 +322,13 @@ content:
          
         IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
       
-  
+
+  - title: Academic Services
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+    - Reviewer
+    Journals: RA-L (2023-2025)
+    Conferences: CoRL (2024), IROS (2025), ICRA (2025)
   
 
 # Footer
