@@ -268,9 +268,8 @@ content:
 
                     Role: Design and control of collision-robust drone platform
 
-      - layout: left
-        title: |
-            IEEE ICRA 2023 RAS Travel Grant
+      - layout: text
+        contet: IEEE ICRA 2023 RAS Travel Grant
 
                     
 
@@ -332,6 +331,7 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       - Reviewer
+      
       RA-L (2023-2025), CoRL (2024), ICRA (2025), IROS (2025)
   
   
