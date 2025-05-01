@@ -267,9 +267,6 @@ content:
                     ***Future Challenge Defense Technology Contest 2022***
 
                     Role: Design and control of collision-robust drone platform
-    
-    - layout: left
-        title: IEEE ICRA 2023 RAS Travel Grant
                     
 
 
@@ -324,14 +321,10 @@ content:
         **I Made Aswin Nahrendra**, Widyawardana Adiprawita, Adrian Susanto, Stefanus Kevin Hadinata
          
         IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
-      
 
-  - title: Academic Services
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-    - Reviewer
-    Journals: RA-L (2023-2025)
-    Conferences: CoRL (2024), IROS (2025), ICRA (2025)
+      - test
+      
+  
   
 
 # Footer
