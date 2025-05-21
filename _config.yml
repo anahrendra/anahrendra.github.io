@@ -119,6 +119,19 @@ content:
     content:
       - layout: left
         title: |
+            <img src="images/locovlm_overview.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***Versatile Legged Locomotion Adaptation through Vision-Language Grounding***
+
+                    **I Made Aswin Nahrendra**, Seunghyun Lee, Dongkyu Lee, and Hyun Myung
+
+                    SafeVLMs Workshop @ **ICRA, 2023**
+
+                    <a href="https://locovlm.github.io">Project</a>
+
+      - layout: left
+        title: |
             <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
