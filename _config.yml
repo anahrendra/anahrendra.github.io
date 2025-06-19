@@ -344,8 +344,8 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       - Reviewer
-
-      RA-L (2023-2025), CoRL (2024), ICRA (2025), IROS (2025)
+      
+        RA-L (2023-2025), CoRL (2024-2025), ICRA (2025), IROS (2025)
   
   
 
