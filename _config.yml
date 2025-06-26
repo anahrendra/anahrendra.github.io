@@ -119,6 +119,15 @@ content:
     content:
       - layout: left
         title: |
+            <img src="images/rospkg.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***A Unified and Modular ROS Framework for Sim-to-Sim-to-Real Transfer in Embodied AI***
+
+                    **I Made Aswin Nahrendra**, Seunghyun Lee, and Hyun Myung
+
+      - layout: left
+        title: |
             <img src="images/locovlm_overview.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
