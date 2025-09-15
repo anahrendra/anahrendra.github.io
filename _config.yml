@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: I Made Aswin Nahrendra
-title: Postdoctoral Researcher at Korea Advanced Institute of Science and Technology (KAIST)
+title: Research Scientiset at KRAFTON AI
 # email: anahrendra
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,9 +52,8 @@ googlescholar_username: p-xKCnIAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  I am a postdoctoral research in the Urban Robotics Lab. at KAIST. I obtained my Ph.D in the [School of Electrical Engineering](https://ee.kaist.ac.kr/) and  [Robotics Program](https://rp.kaist.ac.kr/), [KAIST](https://kaist.ac.kr/kr/). 
-  During my PhD course, I worked with Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/) at the [Urban Robotics Lab.](https://urobot.kaist.ac.kr)
-  My current research interests lie in the area of control, reinforcement learning, and the interplay between them for highly resilient field robotics applications.
+  I am a research in KRAFTON AI's Physical AI team. Previously, I was a postdoctoral researcher in the Urban Robotics Lab., KAIST, where I also obtained my Ph.D in the [School of Electrical Engineering](https://ee.kaist.ac.kr/) and [Robotics Program](https://rp.kaist.ac.kr/), [KAIST](https://kaist.ac.kr/kr/), working with Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
+  My current research focuses on control, reinforcement learning, and the interplay between them for highly resilient legged robotics applications.
 
 content:
   - title: Education # Title for the section
@@ -85,13 +84,27 @@ content:
     content:
       - layout: left
         title: |
+            <img src="images/krafton.png" width="240px" margin-bottom="300%"> <br>
+        description: |
+                    **Research Scientist**
+
+                    **KRAFTON AI**, Rep. of Korea
+
+                    *Physical AI Team*
+
+                    Sep. 2025 - present
+
+      - layout: left
+        title: |
             <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
         description: |
                     **Postdoctoral Researcher**
 
-                    *KAIST*, Rep. of Korea
+                    **KAIST**, Rep. of Korea
 
-                    Sep. 2024 - present
+                    *Urban Robotics Lab.*
+
+                    Sep. 2024 - Sep. 2025
 
       - layout: left
         title: |
@@ -99,7 +112,9 @@ content:
         description: |
                     **Research Intern**
 
-                    *Sony AI*, Japan
+                    **Sony AI**, Japan
+
+                    *Robot Gastronomy Team*
 
                     Jan. 2024 - Jul. 2024
 
@@ -109,7 +124,9 @@ content:
         description: |
                     **Graduate Research Assistant**
 
-                    *KAIST*, Rep. of Korea
+                    **KAIST**, Rep. of Korea
+
+                    *Urban Robotics Lab.*
 
                     Sep. 2019 - Feb. 2024
         
