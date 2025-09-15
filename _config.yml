@@ -84,7 +84,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/krafton.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/krafton.png" width="200px" margin-bottom="300%"> <br>
         description: |
                     **Research Scientist**
 
