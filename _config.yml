@@ -217,7 +217,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/chamelion.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
                     ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
