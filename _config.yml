@@ -220,6 +220,19 @@ content:
             <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
+                    ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
+
+                    Seoyeon Jang, Alex Junho Lee, **I Made Aswin Nahrendra**, and Hyun Myung
+
+                    2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World **CoRL, 2025**
+
+                    <a href="https://oreochiz.github.io/chamelion/">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
                     ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
 
                     Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
