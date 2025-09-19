@@ -8,29 +8,12 @@ version: 2
 # Personal info
 name: I Made Aswin Nahrendra
 title: Research Scientist at KRAFTON AI
-# email: anahrendra
-# email_title: Email (Email title override)
-# phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
 # Dark Mode (true/false/never)
 darkmode: never
 
 # Social links
-# twitter_username: jekyllrb
 github_username:  anahrendra
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
 linkedin_username: i-made-aswin-nahrendra
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
 googlescholar_username: p-xKCnIAAAAJ
 
 # Additional icon links
@@ -84,7 +67,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/krafton.png" width="200px" margin-bottom="300%"> <br>
+            <img src="images/krafton.png" width="240px" margin-bottom="300%"> <br>
         description: |
                     **Research Scientist**
 
