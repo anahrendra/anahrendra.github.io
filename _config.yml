@@ -119,79 +119,77 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamwaqpp.png" width="240px"> <br>
                   
         description: |
                     ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
 
-                    **I Made Aswin Nahrendra**, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
 
-                    IEEE Transactions on Robotics **(T-RO), 2025**
+                    <mark>IEEE T-RO, 2025</mark>
 
                     <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
 
       - layout: left
         title: |
-            <img src="images/locovlm_overview.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/locovlm_overview.png" width="240px"> <br>
                   
         description: |
                     ***Versatile Legged Locomotion Adaptation through Vision-Language Grounding***
 
-                    **I Made Aswin Nahrendra**, Seunghyun Lee, Dongkyu Lee, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Seunghyun Lee, Dongkyu Lee, and Hyun Myung
 
-                    SafeVLMs Workshop @ **ICRA, 2025**
+                    <mark>SafeVLMs Workshop @ ICRA, 2025</mark>
 
                     <a href="https://locovlm.github.io">Project</a>
 
       - layout: left
         title: |
-            <img src="images/rospkg.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/rospkg.png" width="240px"> <br>
                   
         description: |
                     ***A Unified and Modular ROS Framework for Sim-to-Sim-to-Real Transfer in Embodied AI***
 
-                    **I Made Aswin Nahrendra**, Seunghyun Lee, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Seunghyun Lee, and Hyun Myung
 
                     <a href="https://unirospkg.github.io">Project</a>
 
       - layout: left
         title: |
-            <img src="images/dreamwaq.jpeg" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamwaq.jpeg" width="240px"> <br>
                   
         description: |
                     ***DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning***
 
-                    **I Made Aswin Nahrendra**, Byeongho Yu, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Byeongho Yu, and Hyun Myung
 
-                    IEEE International Conference on Robotics and Automation **(ICRA), 2023**
+                    <mark>IEEE ICRA, 2023</mark>
 
                     <a href="https://arxiv.org/abs/2301.10602">Paper</a>  <a href="https://sites.google.com/view/dreamwaq">Project</a>
 
       - layout: left
         title: |
-            <img src="images/dreamriser.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamriser.png" width="240px"> <br>
                   
         description: |
                     ***Robust Recovery Motion Control for Quadrupedal Robots via Learned Terrain Imagination***
 
-                    **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, Hyungtae Lim, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Minho Oh, Byeongho Yu, Hyungtae Lim, and Hyun Myung
 
-                    Experiment-oriented Locomotion and Manipulation Research Workshop @ Robotics: Science and Systems **(RSS), 2023**
+                    <mark>RSS Workshop, 2023</mark>
 
                     <a href="https://arxiv.org/abs/2306.12712">Paper</a>  <a href="https://sites.google.com/view/dreamriser">Project</a>
 
       - layout: left
         title: |
-            <img src="images/retrorl.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/retrorl.png" width="240px"> <br>
                   
         description: |
                     ***Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones***
 
-                    **I Made Aswin Nahrendra**, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, and Hyun Myung
+                    <u>I Made Aswin Nahrendra</u>, Christian Tirtawardhana, Byeongho Yu, Eungchang Mason Lee, and Hyun Myung
          
-                    IEEE Robotics and Automation Letters **(RA-L), 2022**
-                    
-                    IEEE/RSJ International Conference on Intelligent Robot and Systems **(IROS), 2022** *[Oral presentation]*
+                    <mark>IEEE RA-L, 2022</mark> · <mark>IEEE IROS, 2022</mark> *[Oral]*
 
                     <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
   
@@ -200,68 +198,66 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/chamelion.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/chamelion.png" width="240px"> <br>
                   
         description: |
                     ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
 
-                    Seoyeon Jang, Alex Junho Lee, **I Made Aswin Nahrendra**, and Hyun Myung
+                    Seoyeon Jang, Alex Junho Lee, <u>I Made Aswin Nahrendra</u>, and Hyun Myung
 
-                    2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World **CoRL, 2025**
+                    <mark>CoRL Workshop, 2025</mark>
 
                     <a href="https://oreochiz.github.io/chamelion/">Project</a>
 
       - layout: left
         title: |
-            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamflex.png" width="240px"> <br>
                   
         description: |
                     ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
 
-                    Seunghyun Lee, **I Made Aswin Nahrendra**, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
+                    Seunghyun Lee, <u>I Made Aswin Nahrendra</u>, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
 
-                    IEEE International Conference on Robotics and Automation **(ICRA), 2025**
+                    <mark>IEEE ICRA, 2025</mark>
 
                     <a href="https://dreamflex.github.io">Project</a>
 
       - layout: left
         title: |
-            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/trg.png" width="240px"> <br>
 
         description: |
                     ***TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation***
 
-                    Dongkyu Lee, **I Made Aswin Nahrendra**, Minho Oh, Byeongho Yu, and Hyun Myung
+                    Dongkyu Lee, <u>I Made Aswin Nahrendra</u>, Minho Oh, Byeongho Yu, and Hyun Myung
 
-                    IEEE Robotics and Automation Letters **(RA-L), 2025**
+                    <mark>IEEE RA-L, 2025</mark>
 
                     <a href="https://ieeexplore.ieee.org/document/10819646">Paper</a> <a href="https://trg-planner.github.io">Project</a>
 
       - layout: left
         title: |
-            <img src="images/divergence.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/divergence.png" width="240px"> <br>
 
         description: |
                     ***3D LiDAR Map-Based Robust Localization System Leveraging Pose Divergence Detection and Relocalization***
 
-                    Seungjae Lee, Minho Oh, **I Made Aswin Nahrendra**, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
+                    Seungjae Lee, Minho Oh, <u>I Made Aswin Nahrendra</u>, Wonho Song, Byeongho Yu, Kevin Christiansen Marsim, Dongwan Kang, and Hyun Myung
 
-                    IEEE 21st International Conference on Ubiquitous Robots **(UR), 2024**
+                    <mark>IEEE UR, 2024</mark>
 
                     <a href="https://ieeexplore.ieee.org/document/10597508">Paper</a>
 
       - layout: left
         title: |
-            <img src="images/toss.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/toss.png" width="240px"> <br>
 
         description: |
                     ***TOSS: Real-time Tracking and Moving Object Segmentation for Static Scene Mapping***
 
-                    Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae lee, **I Made Aswin Nahrendra**, Hyungtae Lim, and Hyun Myung *(Best paper award)*
+                    Seoyeon Jang, Minho Oh, Byeongho Yu, Seungjae Lee, <u>I Made Aswin Nahrendra</u>, Hyungtae Lim, and Hyun Myung
 
-                    11th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2023**
-
-                    **Best paper award**
+                    <mark>RiTA, 2023</mark> · **Best Paper Award**
 
                     <a href="https://arxiv.org/pdf/2408.05453">Paper</a>
 
@@ -315,53 +311,39 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - <a>*Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*</a>
+      - *Development of Perching and Fail-Safe Module for Wall Climbing Multi-Copter*
       
-        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, Seok-Tae Kim, and Hyun Myung
-         
-        10th International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, <u>I Made Aswin Nahrendra</u>, Seok-Tae Kim, and Hyun Myung · <mark>RiTA, 2022</mark>
 
 
-      - <a>*A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild*</a>
+      - *A Robust State Estimator for Legged Robots using Visual-Inertial-Leg Kinematics Information in the Wild*
       
-        Byeongho Yu, Yeeun Kim, Jinwoo Jeon, **I Made Aswin Nahrendra**, and Hyun Myung
-         
-        International Conference on Control, Automation, and System **(ICCAS), 2022** *[Poster presentation]*
+        Byeongho Yu, Yeeun Kim, Jinwoo Jeon, <u>I Made Aswin Nahrendra</u>, and Hyun Myung · <mark>ICCAS, 2022</mark>
 
 
-      - <a>*Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism*</a>
+      - *Development of Cleaning Module for Wall Climbing Drone with Bio-inspired Watering Mechanism*
       
-        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, **I Made Aswin Nahrendra**, and Hyun Myung
-         
-        International Conference on Control, Automation, and System **(ICCAS), 2022**
+        Taewan Kim, Christian Tirtawardhana, Byeongho Yu, <u>I Made Aswin Nahrendra</u>, and Hyun Myung · <mark>ICCAS, 2022</mark>
         
 
       - <a href="https://ieeexplore.ieee.org/document/9827374">*Segmented Encoding for Sim2Real of RL-Based End-To-End Autonomous Driving*</a>
       
-        Seung-Hwan Chung, Seung-Hyun Kong, Sangjae Cho, **I Made Aswin Nahrendra**
-         
-        IEEE Intelligent Vehicle Symposium **(IVS), 2022**
+        Seung-Hwan Chung, Seung-Hyun Kong, Sangjae Cho, <u>I Made Aswin Nahrendra</u> · <mark>IEEE IVS, 2022</mark>
 
     
       - <a href="https://ieeexplore.ieee.org/document/9444458">*Enhanced Off-Policy Reinforcement Learning With Focused Experience Replay*</a>
       
-        Seung-Hyun Kong<span>&#42;</span>, **I Made Aswin Nahrendra**<span>&#42;</span>, Donghee Paek (<span>&#42;</span> Equal contribution)
-         
-        **IEEE Access, 2021**
+        Seung-Hyun Kong*, <u>I Made Aswin Nahrendra</u>*, Donghee Paek (*Equal contribution) · <mark>IEEE Access, 2021</mark>
 
 
       - <a href="https://ieeexplore.ieee.org/document/8988821">*Adaptive Control of Cyber-Physical Distillation Column Using Data Driven Control Approach*</a>
       
-        **I Made Aswin Nahrendra**, Pranoto Hidaya Rusmin, Egi Muhammad Idris Hidayat
-         
-        IEEE International Conference on Electrical Engineering and Informatics **(ICEEI), 2019**
+        <u>I Made Aswin Nahrendra</u>, Pranoto Hidaya Rusmin, Egi Muhammad Idris Hidayat · <mark>IEEE ICEEI, 2019</mark>
 
 
       - <a href="https://ieeexplore.ieee.org/document/8605492">*Engine Control Unit for 2 Stroke Internal Combustion Engine on Medium Altitude Unmanned Aerial Vehicle*</a>
       
-        **I Made Aswin Nahrendra**, Widyawardana Adiprawita, Adrian Susanto, Stefanus Kevin Hadinata
-         
-        IEEE International Symposium on Electronics and Smart Devices **(ISESD), 2018**
+        <u>I Made Aswin Nahrendra</u>, Widyawardana Adiprawita, Adrian Susanto, Stefanus Kevin Hadinata · <mark>IEEE ISESD, 2018</mark>
 
   - title: Academic Services
     layout: text

@@ -148,6 +148,25 @@
       color: var(--color-text);
     }
     
+    // Author name highlight (use <u> tag)
+    u {
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--color-text);
+      border-bottom: 2px solid var(--color-gray-400);
+      
+      [data-theme="dark"] & {
+        border-bottom-color: var(--color-gray-500);
+      }
+    }
+    
+    // Venue/conference badge (use <mark> tag)
+    mark {
+      background: none;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+    
     a {
       display: inline-block;
       padding: var(--space-1) var(--space-3);
@@ -353,5 +372,23 @@
     &:hover {
       text-decoration-thickness: 2px;
     }
+  }
+  
+  // Author name highlight
+  u {
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-gray-400);
+    
+    [data-theme="dark"] & {
+      border-bottom-color: var(--color-gray-500);
+    }
+  }
+  
+  // Venue badge
+  mark {
+    background: none;
+    font-weight: 600;
+    color: var(--color-text);
   }
 }
