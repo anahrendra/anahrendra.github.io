@@ -128,7 +128,7 @@ content:
 
                     <mark>IEEE T-RO, 2025</mark> <small>(IF: 10.5)</small>
 
-                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
+                    <a href="https://arxiv.org/pdf/2409.19709"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://dreamwaqpp.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -141,7 +141,7 @@ content:
 
                     <mark>SafeVLMs Workshop @ ICRA, 2025</mark>
 
-                    <a href="https://locovlm.github.io">Project</a>
+                    <a href="https://locovlm.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -152,7 +152,7 @@ content:
 
                     <u>I Made Aswin Nahrendra</u>, Seunghyun Lee, and Hyun Myung
 
-                    <a href="https://unirospkg.github.io">Project</a>
+                    <a href="https://unirospkg.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -165,7 +165,7 @@ content:
 
                     <mark>IEEE ICRA, 2023</mark>
 
-                    <a href="https://arxiv.org/abs/2301.10602">Paper</a>  <a href="https://sites.google.com/view/dreamwaq">Project</a>
+                    <a href="https://arxiv.org/abs/2301.10602"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://sites.google.com/view/dreamwaq"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -178,7 +178,7 @@ content:
 
                     <mark>RSS Workshop, 2023</mark>
 
-                    <a href="https://arxiv.org/abs/2306.12712">Paper</a>  <a href="https://sites.google.com/view/dreamriser">Project</a>
+                    <a href="https://arxiv.org/abs/2306.12712"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://sites.google.com/view/dreamriser"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -191,7 +191,7 @@ content:
          
                     <mark>IEEE RA-L, 2022</mark> <small>(IF: 5.3)</small> · <mark>IEEE IROS, 2022</mark> *[Oral]*
 
-                    <a href="https://ieeexplore.ieee.org/document/9822205">Paper</a>
+                    <a href="https://ieeexplore.ieee.org/document/9822205"><i class="fas fa-file-pdf"></i> Paper</a>
   
   - title: Selected Publications
     layout: list
@@ -210,7 +210,7 @@ content:
 
                     <mark>IEEE RA-L, 2025</mark> <small>(IF: 5.3)</small>
 
-                    <a href="https://ieeexplore.ieee.org/document/10819646">Paper</a> <a href="https://trg-planner.github.io">Project</a>
+                    <a href="https://ieeexplore.ieee.org/document/10819646"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://trg-planner.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -223,7 +223,7 @@ content:
 
                     <mark>IEEE RA-L, 2025</mark> <small>(IF: 5.3)</small>
 
-                    <a href="https://arxiv.org/abs/2510.15220">Paper</a>
+                    <a href="https://arxiv.org/abs/2510.15220"><i class="fas fa-file-pdf"></i> Paper</a>
 
       - layout: divider
         title: Conferences & Workshops
@@ -239,7 +239,7 @@ content:
 
                     <mark>IEEE ICRA, 2025</mark>
 
-                    <a href="https://dreamflex.github.io">Project</a>
+                    <a href="https://dreamflex.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -252,7 +252,7 @@ content:
 
                     <mark>IEEE Humanoids Workshop, 2025</mark>
 
-                    <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view">Paper</a>
+                    <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view"><i class="fas fa-file-pdf"></i> Paper</a>
 
       - layout: left
         title: |
@@ -265,7 +265,7 @@ content:
 
                     <mark>CoRL Workshop, 2025</mark>
 
-                    <a href="https://oreochiz.github.io/chamelion/">Project</a>
+                    <a href="https://oreochiz.github.io/chamelion/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -278,7 +278,7 @@ content:
 
                     <mark>IEEE UR, 2024</mark>
 
-                    <a href="https://ieeexplore.ieee.org/document/10597508">Paper</a>
+                    <a href="https://ieeexplore.ieee.org/document/10597508"><i class="fas fa-file-pdf"></i> Paper</a>
 
       - layout: left
         title: |
@@ -291,7 +291,7 @@ content:
 
                     <mark>RiTA, 2023</mark> · **Best Paper Award**
 
-                    <a href="https://arxiv.org/pdf/2408.05453">Paper</a>
+                    <a href="https://arxiv.org/pdf/2408.05453"><i class="fas fa-file-pdf"></i> Paper</a>
 
   - title: Awards
     layout: list
