@@ -237,6 +237,19 @@ content:
 
       - layout: left
         title: |
+            <img src="images/lviq.png" width="240px"> <br>
+
+        description: |
+                    ***LVI-Q: Robust LiDAR-Visual-Inertial-Kinematic Odometry for Quadruped Robots Using Tightly-Coupled and Efficient Alternating Optimization***
+
+                    Kevin Christiansen Marsim, Minho Oh, Byeongho Yu, Seungjae Lee, <u>I Made Aswin Nahrendra</u>, Hyungtae Lim, Hyun Myung
+
+                    <mark>IEEE RA-L, 2025</mark>
+
+                    <a href="https://arxiv.org/abs/2510.15220">Paper</a>
+
+      - layout: left
+        title: |
             <img src="images/divergence.png" width="240px"> <br>
 
         description: |

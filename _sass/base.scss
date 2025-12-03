@@ -125,8 +125,13 @@ img {
 // ============================================
 
 ::selection {
-  background-color: var(--color-primary-500);
-  color: white;
+  background-color: var(--color-gray-800);
+  color: var(--color-white);
+}
+
+[data-theme="dark"] ::selection {
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-900);
 }
 
 // ============================================
@@ -155,6 +160,6 @@ img {
 // ============================================
 
 :focus-visible {
-  outline: 2px solid var(--color-primary-500);
+  outline: 2px solid var(--color-gray-500);
   outline-offset: 2px;
 }
