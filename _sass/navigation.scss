@@ -1,0 +1,219 @@
+// ============================================
+// Navigation - Minimal
+// ============================================
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-fixed);
+  padding: var(--space-3) 0;
+  transition: all var(--transition-base);
+  
+  &.scrolled {
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    
+    .nav__logo {
+      color: var(--color-text);
+    }
+    
+    .nav__link {
+      color: var(--color-text-secondary);
+      
+      &:hover {
+        color: var(--color-text);
+      }
+    }
+    
+    .nav__toggle-bar {
+      background: var(--color-text);
+    }
+    
+    .theme-toggle {
+      border-color: var(--color-border);
+      
+      &__icon--dark {
+        color: var(--color-text);
+      }
+    }
+  }
+  
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+    position: relative;
+  }
+  
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    @media (max-width: 768px) {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 260px;
+      height: 100vh;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: var(--space-16) var(--space-5);
+      background: var(--color-bg);
+      border-left: 1px solid var(--color-border);
+      transform: translateX(100%);
+      transition: transform var(--transition-slow);
+      gap: 0;
+      
+      &.active {
+        transform: translateX(0);
+      }
+    }
+  }
+  
+  &__item {
+    &--theme {
+      margin-left: var(--space-3);
+      
+      @media (max-width: 768px) {
+        margin-left: 0;
+        margin-top: var(--space-4);
+      }
+    }
+  }
+  
+  &__link {
+    display: block;
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-gray-400);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    
+    @media (max-width: 768px) {
+      color: var(--color-text);
+      padding: var(--space-3) 0;
+      font-size: var(--text-base);
+    }
+    
+    &:hover {
+      color: var(--color-white);
+      
+      @media (max-width: 768px) {
+        opacity: 0.7;
+      }
+    }
+  }
+  
+  &__toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: calc(var(--z-fixed) + 1);
+    position: absolute;
+    right: var(--container-padding);
+    
+    @media (max-width: 768px) {
+      display: flex;
+    }
+  }
+  
+  &__toggle-bar {
+    width: 20px;
+    height: 1.5px;
+    background: var(--color-white);
+    transition: all var(--transition-fast);
+    
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+    
+    .nav__toggle.active & {
+      background: var(--color-text);
+      
+      &:nth-child(1) {
+        transform: translateY(6.5px) rotate(45deg);
+      }
+      
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      
+      &:nth-child(3) {
+        transform: translateY(-6.5px) rotate(-45deg);
+      }
+    }
+  }
+}
+
+// ============================================
+// Theme Toggle - Minimal
+// ============================================
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--color-gray-600);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  
+  @media (max-width: 768px) {
+    border-color: var(--color-border);
+  }
+  
+  &:hover {
+    border-color: var(--color-gray-400);
+  }
+  
+  &__icon {
+    position: absolute;
+    font-size: 0.9rem;
+    transition: all var(--transition-base);
+    
+    &--dark {
+      color: var(--color-gray-400);
+      opacity: 1;
+      
+      @media (max-width: 768px) {
+        color: var(--color-text);
+      }
+      
+      [data-theme="dark"] & {
+        opacity: 0;
+        transform: rotate(90deg);
+      }
+    }
+    
+    &--light {
+      color: var(--color-gray-300);
+      opacity: 0;
+      transform: rotate(-90deg);
+      
+      [data-theme="dark"] & {
+        opacity: 1;
+        transform: rotate(0);
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+<section class="hero" id="about-me">
+  <div class="hero__container">
+    <div class="hero__content">
+      <div class="hero__info">
+        <div class="hero__greeting">Hello, I'm</div>
+        <h1 class="hero__name">{{ site.name | escape }}</h1>
+        <p class="hero__title">{{ site.title | escape }}</p>
+        
+        <div class="hero__about">
+          {{ site.about_content | strip | markdownify }}
+        </div>
+
+        <div class="hero__social">
+          {%- if site.github_username -%}
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" 
+               class="hero__social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.linkedin_username -%}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" 
+               class="hero__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.googlescholar_username -%}
+            <a href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" 
+               class="hero__social-link" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.twitter_username -%}
+            <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}" 
+               class="hero__social-link" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.orcid_username -%}
+            <a href="https://orcid.org/{{ site.orcid_username | escape }}" 
+               class="hero__social-link" target="_blank" rel="noopener" aria-label="ORCID">
+              <i class="fab fa-orcid"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.email -%}
+            <a href="mailto:{{ site.email }}" 
+               class="hero__social-link" target="_blank" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          {%- endif -%}
+          {% for link in site.additional_links %}
+            <a href="{{ link.url }}" class="hero__social-link" target="_blank" rel="noopener" aria-label="{{ link.title | escape }}">
+              <i class="{{ link.icon }}"></i>
+            </a>
+          {% endfor %}
+        </div>
+
+        <div class="hero__cta">
+          <a href="#research-highlights" class="btn btn--primary">
+            <span>View Research</span>
+            <i class="fas fa-arrow-down"></i>
+          </a>
+          <a href="#education" class="btn btn--secondary">
+            <span>Background</span>
+          </a>
+        </div>
+      </div>
+
+      {%- if site.about_profile_image -%}
+        <div class="hero__image-wrapper">
+          <div class="hero__image-container">
+            <img src="{{ site.about_profile_image | relative_url }}" 
+                 alt="{{ site.name | escape }}" 
+                 class="hero__image">
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+
+    <div class="hero__scroll">
+      <span class="hero__scroll-text">Scroll</span>
+      <div class="hero__scroll-indicator">
+        <div class="hero__scroll-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>

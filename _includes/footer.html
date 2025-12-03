@@ -1,9 +1,48 @@
-<div class="container footer-container">
-  <p>
-    {{ site.name | escape }} -
-    <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-    {%- if site.footer_show_references -%}
-      &nbsp;- {{ site.references_title | default: "References on request" }}
-    {%- endif -%}
-  </p>
-</div>
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <h3 class="footer__name">{{ site.name | escape }}</h3>
+        <p class="footer__title">{{ site.title | escape }}</p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__social">
+          {%- if site.github_username -%}
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" 
+               class="footer__social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.linkedin_username -%}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" 
+               class="footer__social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.googlescholar_username -%}
+            <a href="https://scholar.google.com/citations?user={{ site.googlescholar_username| escape }}" 
+               class="footer__social-link" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fas fa-graduation-cap"></i>
+            </a>
+          {%- endif -%}
+          {%- if site.email -%}
+            <a href="mailto:{{ site.email }}" 
+               class="footer__social-link" target="_blank" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copyright">
+        © {{ 'now' | date: "%Y" }} {{ site.name | escape }}. All rights reserved.
+      </p>
+      {%- if site.footer_show_references -%}
+        <p class="footer__references">{{ site.references_title | default: "References on request" }}</p>
+      {%- endif -%}
+    </div>
+  </div>
+</footer>

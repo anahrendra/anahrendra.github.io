@@ -1,29 +1,97 @@
-{% for item in include.content %}
-  <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+<div class="cards-grid">
+  {% for item in include.content %}
+    <article class="card card--{{ item.layout | default: 'left' }}">
+      {% if item.layout == 'left' %}
+        <!-- Research/Publication card with image on left -->
+        <div class="card__inner">
+          {% assign has_image = item.title | contains: '<img' %}
+          {% if has_image %}
+            <div class="card__media">
+              {{ item.title }}
+            </div>
+          {% endif %}
+          <div class="card__content">
+            <div class="card__body">
+              {{ item.description | strip | markdownify }}
+            </div>
+            {%- if item.sub_title -%}
+              <p class="card__subtitle">{{ item.sub_title }}</p>
+            {%- endif -%}
+            {%- if item.caption -%}
+              <p class="card__caption">{{ item.caption }}</p>
+            {%- endif -%}
+            {%- if item.quote -%}
+              <p class="card__date">{{ item.quote }}</p>
+            {%- endif -%}
+            {%- if item.link -%}
+              <a href="{{ item.link }}" class="card__link" target="_blank" rel="noopener">
+                {%- if item.link_text -%}{{ item.link_text }}{%- else -%}Learn more{%- endif -%}
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            {%- endif -%}
+          </div>
+        </div>
 
-      {%- if item.link -%}
-        {% include a.html href=item.link class="link" %}
-          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
-        </a>
-      {%- endif -%}
+      {% elsif item.layout == 'top-middle' %}
+        <!-- Education card - timeline style -->
+        <div class="timeline-card">
+          <div class="timeline-card__marker"></div>
+          <div class="timeline-card__content">
+            <h3 class="timeline-card__title">{{ item.title }}</h3>
+            {%- if item.sub_title -%}
+              <p class="timeline-card__subtitle">{{ item.sub_title }}</p>
+            {%- endif -%}
+            {%- if item.caption -%}
+              <p class="timeline-card__institution">{{ item.caption }}</p>
+            {%- endif -%}
+            {%- if item.quote -%}
+              <span class="timeline-card__date">{{ item.quote }}</span>
+            {%- endif -%}
+            {%- if item.description -%}
+              <div class="timeline-card__description">
+                {{ item.description | strip | markdownify }}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
 
-      <p class="no-print aditional-links">
-        {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-          </a>
-        {% endfor %}
-      </p>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
-      {%- endif -%}
-      {{ item.description | strip | markdownify }}
-    </div>
-  </div>
-{% endfor %}
+      {% else %}
+        <!-- Default card layout -->
+        <div class="card__inner">
+          {% assign has_image = item.title | contains: '<img' %}
+          {% if has_image %}
+            <div class="card__media">
+              {{ item.title }}
+            </div>
+          {% else %}
+            <div class="card__header">
+              <h3 class="card__title">{{ item.title }}</h3>
+            </div>
+          {% endif %}
+          <div class="card__content">
+            {%- if item.sub_title -%}
+              <p class="card__subtitle">{{ item.sub_title }}</p>
+            {%- endif -%}
+            {%- if item.caption -%}
+              <p class="card__caption">{{ item.caption }}</p>
+            {%- endif -%}
+            {%- if item.quote -%}
+              <p class="card__quote">{{ item.quote }}</p>
+            {%- endif -%}
+            {%- if item.description -%}
+              <div class="card__body">
+                {{ item.description | strip | markdownify }}
+              </div>
+            {%- endif -%}
+            {%- if item.link -%}
+              <a href="{{ item.link }}" class="card__link" target="_blank" rel="noopener">
+                {%- if item.link_text -%}{{ item.link_text }}{%- else -%}Learn more{%- endif -%}
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            {%- endif -%}
+          </div>
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
