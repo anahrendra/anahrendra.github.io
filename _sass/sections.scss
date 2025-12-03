@@ -50,6 +50,51 @@
 }
 
 // ============================================
+// Subsection Divider
+// ============================================
+
+.card--divider {
+  .card__inner {
+    display: block;
+    background: none;
+    border: none;
+    padding: var(--space-6) 0 var(--space-2);
+    
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
+  }
+  
+  .card__header {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .card__title {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: var(--color-gray-300);
+      margin-top: var(--space-2);
+      
+      [data-theme="dark"] & {
+        background: var(--color-gray-600);
+      }
+    }
+  }
+}
+
+// ============================================
 // Card - Minimal Style
 // ============================================
 

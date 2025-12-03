@@ -196,43 +196,8 @@ content:
   - title: Selected Publications
     layout: list
     content:
-      - layout: left
-        title: |
-            <img src="images/humanoids.png" width="240px"> <br>
-                  
-        description: |
-                    ***Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning***
-
-                    Seunghyun Lee, Dongkyu Lee, Byeongho Yu, <u>I Made Aswin Nahrendra</u>, Hyun Myung
-
-                    <mark>IEEE Humanoids Workshop on Sim-to-Real Transfer for Humanoid Robots, 2025</mark>
-
-                    <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view">Paper</a>
-      - layout: left
-        title: |
-            <img src="images/chamelion.png" width="240px"> <br>
-                  
-        description: |
-                    ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
-
-                    Seoyeon Jang, Alex Junho Lee, <u>I Made Aswin Nahrendra</u>, and Hyun Myung
-
-                    <mark>CoRL Workshop, 2025</mark>
-
-                    <a href="https://oreochiz.github.io/chamelion/">Project</a>
-
-      - layout: left
-        title: |
-            <img src="images/dreamflex.png" width="240px"> <br>
-                  
-        description: |
-                    ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
-
-                    Seunghyun Lee, <u>I Made Aswin Nahrendra</u>, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
-
-                    <mark>IEEE ICRA, 2025</mark>
-
-                    <a href="https://dreamflex.github.io">Project</a>
+      - layout: divider
+        title: Journals
 
       - layout: left
         title: |
@@ -259,6 +224,48 @@ content:
                     <mark>IEEE RA-L, 2025</mark> <small>(IF: 5.3)</small>
 
                     <a href="https://arxiv.org/abs/2510.15220">Paper</a>
+
+      - layout: divider
+        title: Conferences & Workshops
+
+      - layout: left
+        title: |
+            <img src="images/dreamflex.png" width="240px"> <br>
+                  
+        description: |
+                    ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
+
+                    Seunghyun Lee, <u>I Made Aswin Nahrendra</u>, Dongkyu Lee, Byeongho Yu, Minho Oh, and Hyun Myung
+
+                    <mark>IEEE ICRA, 2025</mark>
+
+                    <a href="https://dreamflex.github.io">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/humanoids.png" width="240px"> <br>
+                  
+        description: |
+                    ***Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning***
+
+                    Seunghyun Lee, Dongkyu Lee, Byeongho Yu, <u>I Made Aswin Nahrendra</u>, Hyun Myung
+
+                    <mark>IEEE Humanoids Workshop, 2025</mark>
+
+                    <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view">Paper</a>
+
+      - layout: left
+        title: |
+            <img src="images/chamelion.png" width="240px"> <br>
+                  
+        description: |
+                    ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
+
+                    Seoyeon Jang, Alex Junho Lee, <u>I Made Aswin Nahrendra</u>, and Hyun Myung
+
+                    <mark>CoRL Workshop, 2025</mark>
+
+                    <a href="https://oreochiz.github.io/chamelion/">Project</a>
 
       - layout: left
         title: |

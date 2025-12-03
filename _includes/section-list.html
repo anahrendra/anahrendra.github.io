@@ -32,6 +32,14 @@
           </div>
         </div>
 
+      {% elsif item.layout == 'divider' %}
+        <!-- Subsection divider -->
+        <div class="card__inner">
+          <div class="card__header">
+            <h4 class="card__title">{{ item.title }}</h4>
+          </div>
+        </div>
+
       {% elsif item.layout == 'top-middle' %}
         <!-- Education card - timeline style -->
         <div class="timeline-card">
