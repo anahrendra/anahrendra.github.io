@@ -119,14 +119,16 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/rospkg.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
-                    ***A Unified and Modular ROS Framework for Sim-to-Sim-to-Real Transfer in Embodied AI***
+                    ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
 
-                    **I Made Aswin Nahrendra**, Seunghyun Lee, and Hyun Myung
+                    **I Made Aswin Nahrendra**, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
 
-                    <a href="https://unirospkg.github.io">Project</a>
+                    IEEE Transactions on Robotics **(T-RO), 2025**
+
+                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
 
       - layout: left
         title: |
@@ -143,16 +145,14 @@ content:
 
       - layout: left
         title: |
-            <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/rospkg.png" width="240px" margin-bottom="300%"> <br>
                   
         description: |
-                    ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
+                    ***A Unified and Modular ROS Framework for Sim-to-Sim-to-Real Transfer in Embodied AI***
 
-                    **I Made Aswin Nahrendra**, Byeongho Yu, Minho Oh, Dongkyu Lee, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
+                    **I Made Aswin Nahrendra**, Seunghyun Lee, and Hyun Myung
 
-                    **under review**
-
-                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
+                    <a href="https://unirospkg.github.io">Project</a>
 
       - layout: left
         title: |
