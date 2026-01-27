@@ -16,15 +16,17 @@
 
       {%- if site.version == 2 -%}
         {% for section in site.content %}
-          <section class="section section--{{ section.layout }}" id="{{ section.title | slugify }}">
-            <div class="container">
-              <h2 class="section__title">
-                <span class="section__title-text">{{ section.title }}</span>
-                <span class="section__title-line"></span>
-              </h2>
-              {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-            </div>
-          </section>
+          {% unless forloop.first %}
+            <section class="section section--{{ section.layout }}" id="{{ section.title | slugify }}">
+              <div class="container">
+                <h2 class="section__title">
+                  <span class="section__title-text">{{ section.title }}</span>
+                  <span class="section__title-line"></span>
+                </h2>
+                {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+              </div>
+            </section>
+          {% endunless %}
         {% endfor %}
       {% else %}
         {%- include v1/default.html -%}

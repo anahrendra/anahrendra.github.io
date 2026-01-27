@@ -1,6 +1,18 @@
 <section class="hero" id="about-me">
   <div class="hero__container">
     <div class="hero__content">
+      <!-- Left: Picture -->
+      {%- if site.about_profile_image -%}
+        <div class="hero__image-wrapper">
+          <div class="hero__image-container">
+            <img src="{{ site.about_profile_image | relative_url }}" 
+                 alt="{{ site.name | escape }}" 
+                 class="hero__image">
+          </div>
+        </div>
+      {%- endif -%}
+
+      <!-- Middle: About -->
       <div class="hero__info">
         <div class="hero__greeting">Hello, I'm</div>
         <h1 class="hero__name">{{ site.name | escape }}</h1>
@@ -53,33 +65,19 @@
             </a>
           {% endfor %}
         </div>
-
-        <div class="hero__cta">
-          <a href="#research-highlights" class="btn btn--primary">
-            <span>View Research</span>
-            <i class="fas fa-arrow-down"></i>
-          </a>
-          <a href="#education" class="btn btn--secondary">
-            <span>Background</span>
-          </a>
-        </div>
       </div>
 
-      {%- if site.about_profile_image -%}
-        <div class="hero__image-wrapper">
-          <div class="hero__image-container">
-            <img src="{{ site.about_profile_image | relative_url }}" 
-                 alt="{{ site.name | escape }}" 
-                 class="hero__image">
+      <!-- Right: Education -->
+      <div class="hero__education">
+        <h3 class="hero__education-title">Education</h3>
+        {% for item in site.content[0].content %}
+          <div class="hero__education-item">
+            <div class="hero__education-degree">{{ item.title }}</div>
+            <div class="hero__education-field">{{ item.sub_title }}</div>
+            <div class="hero__education-school">{{ item.caption }}</div>
+            <div class="hero__education-date">{{ item.quote }}</div>
           </div>
-        </div>
-      {%- endif -%}
-    </div>
-
-    <div class="hero__scroll">
-      <span class="hero__scroll-text">Scroll</span>
-      <div class="hero__scroll-indicator">
-        <div class="hero__scroll-dot"></div>
+        {% endfor %}
       </div>
     </div>
   </div>
