@@ -243,6 +243,19 @@ content:
 
       - layout: left
         title: |
+            <img src="images/dreamflow.png" width="240px"> <br>
+
+        description: |
+                    ***Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space***
+
+                    Jiwon Park, Dongkyu Lee, <u>I Made Aswin Nahrendra</u>, Jaeyoung Lim, and Hyun Myung
+
+                    <mark>IEEE ICRA, 2026</mark>
+
+                    <a href="https://dreamflow-icra.github.io"><i class="fas fa-globe"></i> Project</a>
+
+      - layout: left
+        title: |
             <img src="images/dreamflex.png" width="240px"> <br>
                   
         description: |
