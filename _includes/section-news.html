@@ -1,0 +1,13 @@
+<ul class="news-list">
+  {% for item in include.content %}
+    <li class="news-item{% if forloop.index > 5 %} news-item--hidden{% endif %}">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </li>
+  {% endfor %}
+</ul>
+{% if include.content.size > 5 %}
+  <button class="news-toggle" onclick="toggleNews(this)">
+    Show more <i class="fas fa-chevron-down"></i>
+  </button>
+{% endif %}

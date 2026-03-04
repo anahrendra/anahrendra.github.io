@@ -126,6 +126,24 @@ function initScrollAnimations() {
   });
 }
 
+// ============================================
+// News Toggle
+// ============================================
+
+function toggleNews(btn) {
+  const list = btn.previousElementSibling;
+  const hidden = list.querySelectorAll('.news-item--hidden');
+  const isExpanded = btn.classList.toggle('expanded');
+
+  hidden.forEach(item => {
+    item.style.display = isExpanded ? 'flex' : 'none';
+  });
+
+  btn.innerHTML = isExpanded
+    ? 'Show less <i class="fas fa-chevron-up"></i>'
+    : 'Show more <i class="fas fa-chevron-down"></i>';
+}
+
 // Add animation styles
 const style = document.createElement('style');
 style.textContent = `
