@@ -66,7 +66,7 @@ content:
     layout: news
     content:
       - date: Feb 2026
-        text: <strong>DreamFlow</strong> has been accepted to <strong>IEEE ICRA 2026</strong>!
+        text: <strong>DreamFlow</strong> and <strong>OpenHEART</strong> have been accepted to <strong>IEEE ICRA 2026</strong>!
       - date: Jan 2026
         text: <strong>Chamelion</strong> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Dec 2025
@@ -277,6 +277,19 @@ content:
                     <mark>IEEE ICRA, 2026</mark>
 
                     <a href="https://dreamflow-icra.github.io"><i class="fas fa-globe"></i> Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/openheart_framework.png" width="240px"> <br>
+
+        description: |
+                    ***OpenHEART: Opening Heterogeneous Articulated Objects with a Legged Manipulator***
+
+                    Seonghyeon Lim, Hyeonwoo Lee, Seunghyun Lee, <u>I Made Aswin Nahrendra</u>, and Hyun Myung
+
+                    <mark>IEEE ICRA, 2026</mark>
+
+                    <a href="https://openheart-icra.github.io/OpenHEART/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
