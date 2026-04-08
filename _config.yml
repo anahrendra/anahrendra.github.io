@@ -267,6 +267,19 @@ content:
 
       - layout: left
         title: |
+            <img src="images/flashsac.png" width="240px"> <br>
+
+        description: |
+                    ***FlashSAC: Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot Control***
+
+                    Donghu Kim, Youngdo Lee, Minho Park, Kinam Kim, <u>I Made Aswin Nahrendra</u>, Takuma Seno, Sehee Min, Daniel Palenicek, Florian Vogt, Danica Kragic, Jan Peters, Jaegul Choo, and Hojoon Lee
+
+                    <mark>arXiv, 2026</mark>
+
+                    <a href="https://arxiv.org/abs/2604.04539"><i class="fas fa-file-pdf"></i> Paper</a>
+
+      - layout: left
+        title: |
             <img src="images/dreamflow.png" width="240px"> <br>
 
         description: |
