@@ -66,11 +66,13 @@ content:
     layout: news
     content:
       - date: Feb 2026
-        text: <strong>DreamFlow</strong> and <strong>OpenHEART</strong> have been accepted to <strong>IEEE ICRA 2026</strong>!
+        text: <strong>DreamFlow</strong> and <strong>OpenHEART</strong> have been accepted to <strong>IEEE ICRA 2026</strong>, and <strong>LVI-Q</strong> will be presented as an <strong>Oral at ICRA 2026</strong>!
       - date: Jan 2026
         text: <strong>Chamelion</strong> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Dec 2025
         text: <strong>DreamWaQ++</strong> has been accepted to <strong>IEEE T-RO</strong>!
+      - date: Oct 2025
+        text: <strong>LVI-Q</strong> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Sep 2025
         text: Started as a Research Scientist at <strong>KRAFTON AI</strong>, Physical AI Team.
       - date: Jul 2025
@@ -258,7 +260,7 @@ content:
 
                     Kevin Christiansen Marsim, Minho Oh, Byeongho Yu, Seungjae Lee, <u>I Made Aswin Nahrendra</u>, Hyungtae Lim, Hyun Myung
 
-                    <mark>IEEE RA-L, 2025</mark> <small>(IF: 5.3)</small> 
+                    <mark>IEEE RA-L, 2025</mark> <small>(IF: 5.3)</small> · <mark>IEEE ICRA, 2026</mark> *[Oral]*
 
                     <a href="https://arxiv.org/abs/2510.15220"><i class="fas fa-file-pdf"></i> Paper</a>
 
@@ -289,7 +291,7 @@ content:
 
                     <mark>IEEE ICRA, 2026</mark>
 
-                    <a href="https://dreamflow-icra.github.io"><i class="fas fa-globe"></i> Project</a>
+                    <a href="https://arxiv.org/abs/2603.02976"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://dreamflow-icra.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
@@ -302,7 +304,7 @@ content:
 
                     <mark>IEEE ICRA, 2026</mark>
 
-                    <a href="https://openheart-icra.github.io/OpenHEART/"><i class="fas fa-globe"></i> Project</a>
+                    <a href="https://arxiv.org/abs/2603.05830"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://openheart-icra.github.io/OpenHEART/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
         title: |
