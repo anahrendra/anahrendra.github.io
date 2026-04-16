@@ -89,6 +89,8 @@ content:
         text: Won the <strong>Autonomous Quadrupedal Robot Challenge</strong> at ICRA 2023, London!
       - date: Jan 2023
         text: <strong>DreamWaQ</strong> has been accepted to <strong>IEEE ICRA 2023</strong>!
+      - date: Jun 2022
+        text: <strong>Retro-RL</strong> has been accepted to <strong>IEEE RA-L</strong> and will be presented as an <strong>Oral at IROS 2022</strong>!
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
