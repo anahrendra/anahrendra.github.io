@@ -451,8 +451,12 @@ content:
     content: | # this will include new lines to allow paragraphs
 
       - Reviewer
-      
-        RA-L (2023-2025), CoRL (2024-2025), ICRA (2025-2026), IROS (2025)
+
+        IEEE T-RL (2026), IEEE RA-L (2023-2026), CoRL (2024-2026), ICRA (2025-2026), IROS (2025-2026), ARSO (2026)
+
+      - Associate Editor
+
+        IEEE UR (2026)
   
   
 
