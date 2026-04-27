@@ -280,7 +280,7 @@ content:
         description: |
                     ***FlashSAC: Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot Control***
 
-                    Donghu Kim, Youngdo Lee, Minho Park, Kinam Kim, <u>I Made Aswin Nahrendra</u>, Takuma Seno, Sehee Min, Daniel Palenicek, Florian Vogt, Danica Kragic, Jan Peters, Jaegul Choo, and Hojoon Lee
+                    Donghu Kim*, Youngdo Lee*, Minho Park, Kinam Kim, <u>I Made Aswin Nahrendra</u>, Takuma Seno, Sehee Min, Daniel Palenicek, Florian Vogt, Danica Kragic, Jan Peters, Jaegul Choo, and Hojoon Lee (*Equal contribution)
 
                     <mark>RSS, 2026</mark>
 
