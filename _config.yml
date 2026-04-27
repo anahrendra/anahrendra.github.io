@@ -65,6 +65,8 @@ content:
   - title: News
     layout: news
     content:
+      - date: Apr 2026
+        text: <strong>FlashSAC</strong> has been accepted to <strong>RSS 2026</strong>!
       - date: Feb 2026
         text: <strong>DreamFlow</strong> and <strong>OpenHEART</strong> have been accepted to <strong>IEEE ICRA 2026</strong>, and <strong>LVI-Q</strong> will be presented as an <strong>Oral at ICRA 2026</strong>!
       - date: Jan 2026
@@ -280,7 +282,7 @@ content:
 
                     Donghu Kim, Youngdo Lee, Minho Park, Kinam Kim, <u>I Made Aswin Nahrendra</u>, Takuma Seno, Sehee Min, Daniel Palenicek, Florian Vogt, Danica Kragic, Jan Peters, Jaegul Choo, and Hojoon Lee
 
-                    <mark>arXiv, 2026</mark>
+                    <mark>RSS, 2026</mark>
 
                     <a href="https://arxiv.org/abs/2604.04539"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://holiday-robot.github.io/FlashSAC/"><i class="fas fa-globe"></i> Project</a>
 
