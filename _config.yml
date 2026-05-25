@@ -66,21 +66,21 @@ content:
     layout: news
     content:
       - date: Apr 2026
-        text: <strong>FlashSAC</strong> has been accepted to <strong>RSS 2026</strong>!
+        text: <a href="#flashsac" style="text-decoration: none; color: inherit;"><strong>FlashSAC</strong></a> has been accepted to <strong>RSS 2026</strong>!
       - date: Feb 2026
-        text: <strong>DreamFlow</strong> and <strong>OpenHEART</strong> have been accepted to <strong>IEEE ICRA 2026</strong>, and <strong>LVI-Q</strong> will be presented as an <strong>Oral at ICRA 2026</strong>!
+        text: <a href="#dreamflow" style="text-decoration: none; color: inherit;"><strong>DreamFlow</strong></a> and <a href="#openheart" style="text-decoration: none; color: inherit;"><strong>OpenHEART</strong></a> have been accepted to <strong>IEEE ICRA 2026</strong>, and <a href="#lvi-q" style="text-decoration: none; color: inherit;"><strong>LVI-Q</strong></a> will be presented as an <strong>Oral at ICRA 2026</strong>!
       - date: Jan 2026
-        text: <strong>Chamelion</strong> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#chamelion" style="text-decoration: none; color: inherit;"><strong>Chamelion</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Dec 2025
-        text: <strong>DreamWaQ++</strong> has been accepted to <strong>IEEE T-RO</strong>!
+        text: <a href="#dreamwaqpp" style="text-decoration: none; color: inherit;"><strong>DreamWaQ++</strong></a> has been accepted to <strong>IEEE T-RO</strong>!
       - date: Oct 2025
-        text: <strong>LVI-Q</strong> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#lvi-q" style="text-decoration: none; color: inherit;"><strong>LVI-Q</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Sep 2025
         text: Started as a Research Scientist at <strong>KRAFTON AI</strong>, Physical AI Team.
       - date: Jul 2025
-        text: <strong>TRG-planner</strong> will be presented as an <strong>Oral at IROS 2025</strong>.
+        text: <a href="#trg-planner" style="text-decoration: none; color: inherit;"><strong>TRG-planner</strong></a> will be presented as an <strong>Oral at IROS 2025</strong>.
       - date: Jan 2025
-        text: <strong>DreamFLEX</strong> has been accepted to <strong>IEEE ICRA 2025</strong>, and <strong>TRG-planner</strong> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#dreamflex" style="text-decoration: none; color: inherit;"><strong>DreamFLEX</strong></a> has been accepted to <strong>IEEE ICRA 2025</strong>, and <a href="#trg-planner" style="text-decoration: none; color: inherit;"><strong>TRG-planner</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Sep 2024
         text: Started as a Postdoctoral Researcher at <strong>KAIST</strong>, Urban Robotics Lab.
       - date: Jul 2024
@@ -90,9 +90,9 @@ content:
       - date: Jun 2023
         text: Won the <strong>Autonomous Quadrupedal Robot Challenge</strong> at ICRA 2023, London!
       - date: Jan 2023
-        text: <strong>DreamWaQ</strong> has been accepted to <strong>IEEE ICRA 2023</strong>!
+        text: <a href="#dreamwaq" style="text-decoration: none; color: inherit;"><strong>DreamWaQ</strong></a> has been accepted to <strong>IEEE ICRA 2023</strong>!
       - date: Jun 2022
-        text: <strong>Retro-RL</strong> has been accepted to <strong>IEEE RA-L</strong> and will be presented as an <strong>Oral at IROS 2022</strong>!
+        text: <a href="#retrorl" style="text-decoration: none; color: inherit;"><strong>Retro-RL</strong></a> has been accepted to <strong>IEEE RA-L</strong> and will be presented as an <strong>Oral at IROS 2022</strong>!
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -150,9 +150,10 @@ content:
     layout: list
     content:
       - layout: left
+        anchor: dreamwaqpp
         title: |
             <img src="images/dreamwaqpp.png" width="240px"> <br>
-                  
+
         description: |
                     ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
 
@@ -187,9 +188,10 @@ content:
                     <a href="https://unirospkg.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: dreamwaq
         title: |
             <img src="images/dreamwaq.jpeg" width="240px"> <br>
-                  
+
         description: |
                     ***DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning***
 
@@ -200,9 +202,10 @@ content:
                     <a href="https://arxiv.org/abs/2301.10602"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://sites.google.com/view/dreamwaq"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: dreamriser
         title: |
             <img src="images/dreamriser.png" width="240px"> <br>
-                  
+
         description: |
                     ***Robust Recovery Motion Control for Quadrupedal Robots via Learned Terrain Imagination***
 
@@ -213,9 +216,10 @@ content:
                     <a href="https://arxiv.org/abs/2306.12712"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://sites.google.com/view/dreamriser"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: retrorl
         title: |
             <img src="images/retrorl.png" width="240px"> <br>
-                  
+
         description: |
                     ***Retro-RL: Reinforcing Nominal Controller with Deep Reinforcement Learning for Tilting-Rotor Drones***
 
@@ -232,9 +236,10 @@ content:
         title: Journals
 
       - layout: left
+        anchor: chamelion
         title: |
             <img src="images/chamelion.png" width="240px"> <br>
-                  
+
         description: |
                     ***Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments***
 
@@ -245,6 +250,7 @@ content:
                     <a href="https://chamelion-pages.github.io/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: trg-planner
         title: |
             <img src="images/trg.png" width="240px"> <br>
 
@@ -258,6 +264,7 @@ content:
                     <a href="https://ieeexplore.ieee.org/document/10819646"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://trg-planner.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: lvi-q
         title: |
             <img src="images/lviq.png" width="240px"> <br>
 
@@ -274,6 +281,7 @@ content:
         title: Conferences & Workshops
 
       - layout: left
+        anchor: flashsac
         title: |
             <img src="images/flashsac.png" width="240px"> <br>
 
@@ -287,6 +295,7 @@ content:
                     <a href="https://arxiv.org/abs/2604.04539"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://holiday-robot.github.io/FlashSAC/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: dreamflow
         title: |
             <img src="images/dreamflow.png" width="240px"> <br>
 
@@ -300,6 +309,7 @@ content:
                     <a href="https://arxiv.org/abs/2603.02976"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://dreamflow-icra.github.io"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: openheart
         title: |
             <img src="images/openheart_framework.png" width="240px"> <br>
 
@@ -313,9 +323,10 @@ content:
                     <a href="https://arxiv.org/abs/2603.05830"><i class="fas fa-file-pdf"></i> Paper</a> <a href="https://openheart-icra.github.io/OpenHEART/"><i class="fas fa-globe"></i> Project</a>
 
       - layout: left
+        anchor: dreamflex
         title: |
             <img src="images/dreamflex.png" width="240px"> <br>
-                  
+
         description: |
                     ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
 

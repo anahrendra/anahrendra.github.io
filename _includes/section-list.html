@@ -1,6 +1,6 @@
 <div class="cards-grid">
   {% for item in include.content %}
-    <article class="card card--{{ item.layout | default: 'left' }}">
+    <article class="card card--{{ item.layout | default: 'left' }}"{% if item.anchor %} id="{{ item.anchor }}"{% endif %}>
       {% if item.layout == 'left' %}
         <!-- Research/Publication card with image on left -->
         <div class="card__inner">
