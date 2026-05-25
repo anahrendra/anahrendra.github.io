@@ -66,21 +66,21 @@ content:
     layout: news
     content:
       - date: Apr 2026
-        text: <a href="#flashsac" style="text-decoration: none; color: inherit;"><strong>FlashSAC</strong></a> has been accepted to <strong>RSS 2026</strong>!
+        text: <a href="#flashsac" class="plain-link"><strong>FlashSAC</strong></a> has been accepted to <strong>RSS 2026</strong>!
       - date: Feb 2026
-        text: <a href="#dreamflow" style="text-decoration: none; color: inherit;"><strong>DreamFlow</strong></a> and <a href="#openheart" style="text-decoration: none; color: inherit;"><strong>OpenHEART</strong></a> have been accepted to <strong>IEEE ICRA 2026</strong>, and <a href="#lvi-q" style="text-decoration: none; color: inherit;"><strong>LVI-Q</strong></a> will be presented as an <strong>Oral at ICRA 2026</strong>!
+        text: <a href="#dreamflow" class="plain-link"><strong>DreamFlow</strong></a> and <a href="#openheart" class="plain-link"><strong>OpenHEART</strong></a> have been accepted to <strong>IEEE ICRA 2026</strong>, and <a href="#lvi-q" class="plain-link"><strong>LVI-Q</strong></a> will be presented as an <strong>Oral at ICRA 2026</strong>!
       - date: Jan 2026
-        text: <a href="#chamelion" style="text-decoration: none; color: inherit;"><strong>Chamelion</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#chamelion" class="plain-link"><strong>Chamelion</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Dec 2025
-        text: <a href="#dreamwaqpp" style="text-decoration: none; color: inherit;"><strong>DreamWaQ++</strong></a> has been accepted to <strong>IEEE T-RO</strong>!
+        text: <a href="#dreamwaqpp" class="plain-link"><strong>DreamWaQ++</strong></a> has been accepted to <strong>IEEE T-RO</strong>!
       - date: Oct 2025
-        text: <a href="#lvi-q" style="text-decoration: none; color: inherit;"><strong>LVI-Q</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#lvi-q" class="plain-link"><strong>LVI-Q</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Sep 2025
         text: Started as a Research Scientist at <strong>KRAFTON AI</strong>, Physical AI Team.
       - date: Jul 2025
-        text: <a href="#trg-planner" style="text-decoration: none; color: inherit;"><strong>TRG-planner</strong></a> will be presented as an <strong>Oral at IROS 2025</strong>.
+        text: <a href="#trg-planner" class="plain-link"><strong>TRG-planner</strong></a> will be presented as an <strong>Oral at IROS 2025</strong>.
       - date: Jan 2025
-        text: <a href="#dreamflex" style="text-decoration: none; color: inherit;"><strong>DreamFLEX</strong></a> has been accepted to <strong>IEEE ICRA 2025</strong>, and <a href="#trg-planner" style="text-decoration: none; color: inherit;"><strong>TRG-planner</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
+        text: <a href="#dreamflex" class="plain-link"><strong>DreamFLEX</strong></a> has been accepted to <strong>IEEE ICRA 2025</strong>, and <a href="#trg-planner" class="plain-link"><strong>TRG-planner</strong></a> has been accepted to <strong>IEEE RA-L</strong>!
       - date: Sep 2024
         text: Started as a Postdoctoral Researcher at <strong>KAIST</strong>, Urban Robotics Lab.
       - date: Jul 2024
@@ -90,9 +90,9 @@ content:
       - date: Jun 2023
         text: Won the <strong>Autonomous Quadrupedal Robot Challenge</strong> at ICRA 2023, London!
       - date: Jan 2023
-        text: <a href="#dreamwaq" style="text-decoration: none; color: inherit;"><strong>DreamWaQ</strong></a> has been accepted to <strong>IEEE ICRA 2023</strong>!
+        text: <a href="#dreamwaq" class="plain-link"><strong>DreamWaQ</strong></a> has been accepted to <strong>IEEE ICRA 2023</strong>!
       - date: Jun 2022
-        text: <a href="#retrorl" style="text-decoration: none; color: inherit;"><strong>Retro-RL</strong></a> has been accepted to <strong>IEEE RA-L</strong> and will be presented as an <strong>Oral at IROS 2022</strong>!
+        text: <a href="#retrorl" class="plain-link"><strong>Retro-RL</strong></a> has been accepted to <strong>IEEE RA-L</strong> and will be presented as an <strong>Oral at IROS 2022</strong>!
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
