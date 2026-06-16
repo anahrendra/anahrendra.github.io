@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: I Made Aswin Nahrendra
-title: Research Scientist at KRAFTON AI
+title: Senior Research Engineer at Holiday Robotics
 # Dark Mode (true/false/never)
 darkmode: never
 
@@ -35,7 +35,7 @@ googlescholar_username: p-xKCnIAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  I am a research scientist in KRAFTON AI's Physical AI team. Previously, I was a postdoctoral researcher at the <a href="https://urobot.kaist.ac.kr/" style="text-decoration: none;">Urban Robotics Lab</a>, KAIST, where I also obtained my Ph.D. under Prof. <a href="https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/" style="text-decoration: none;">Hyun Myung</a>.
+  I am a senior research engineer at Holiday Robotics. Previously, I was a research scientist in KRAFTON AI's Physical AI team, and a postdoctoral researcher at the <a href="https://urobot.kaist.ac.kr/" style="text-decoration: none;">Urban Robotics Lab</a>, KAIST, where I also obtained my Ph.D. under Prof. <a href="https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/" style="text-decoration: none;">Hyun Myung</a>.
   My research focuses on control, reinforcement learning, and the interplay between them for highly resilient legged robots. Much of my work centers on sim-to-real robot learning, which has led to a series of projects including <a href="https://sites.google.com/view/dreamwaq" style="text-decoration: none;">DreamWaQ</a>, <a href="https://dreamwaqpp.github.io" style="text-decoration: none;">DreamWaQ++</a>, <a href="https://sites.google.com/view/dreamriser" style="text-decoration: none;">DreamRiser</a>, <a href="https://dreamflex.github.io" style="text-decoration: none;">DreamFLEX</a>, and <a href="https://dreamflow-icra.github.io" style="text-decoration: none;">DreamFlow</a>.
 
 content:
@@ -65,6 +65,8 @@ content:
   - title: News
     layout: news
     content:
+      - date: Jun 2026
+        text: Started as a Senior Research Engineer at <strong>Holiday Robotics</strong>.
       - date: Apr 2026
         text: <a href="#flashsac" class="plain-link"><strong>FlashSAC</strong></a> has been accepted to <strong>RSS 2026</strong>!
       - date: Feb 2026
@@ -99,6 +101,18 @@ content:
     content:
       - layout: left
         title: |
+            <img src="images/holiday.svg" width="240px" margin-bottom="300%"> <br>
+        description: |
+                    **Senior Research Engineer**
+
+                    **Holiday Robotics**, Rep. of Korea
+
+                    *RL Team*
+
+                    Jun. 2026 - present
+
+      - layout: left
+        title: |
             <img src="images/krafton.png" width="240px" margin-bottom="300%"> <br>
         description: |
                     **Research Scientist**
@@ -107,7 +121,7 @@ content:
 
                     *Physical AI Team*
 
-                    Sep. 2025 - present
+                    Sep. 2025 - Jun. 2026
 
       - layout: left
         title: |
