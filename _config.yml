@@ -67,6 +67,8 @@ content:
     content:
       - date: Jun 2026
         text: Started as a Senior Research Engineer at <strong>Holiday Robotics</strong>.
+      - date: Jun 2026
+        text: <a href="#chamelion" class="plain-link"><strong>Chamelion</strong></a> will be presented as an <strong>Oral at IROS 2026</strong>!
       - date: Apr 2026
         text: <a href="#flashsac" class="plain-link"><strong>FlashSAC</strong></a> has been accepted to <strong>RSS 2026</strong>!
       - date: Feb 2026
@@ -259,7 +261,7 @@ content:
 
                     Seoyeon Jang, Alex Junho Lee, <u>I Made Aswin Nahrendra</u>, and Hyun Myung
 
-                    <mark>IEEE RA-L, 2026</mark> <small>(IF: 5.3)</small> · <mark>CoRL Workshop, 2025</mark>
+                    <mark>IEEE RA-L, 2026</mark> <small>(IF: 5.3)</small> · <mark>IEEE IROS, 2026</mark> *[Oral]* · <mark>CoRL Workshop, 2025</mark>
 
                     <a href="https://chamelion-pages.github.io/"><i class="fas fa-globe"></i> Project</a>
 
