@@ -65,6 +65,8 @@ content:
   - title: News
     layout: news
     content:
+      - date: Jul 2026
+        text: <a href="#flashsac" class="plain-link"><strong>FlashSAC</strong></a> received the <strong>Outstanding Paper Award</strong> at <strong>RSS 2026</strong>!
       - date: Jun 2026
         text: Started as a Senior Research Engineer at <strong>Holiday Robotics</strong>.
       - date: Jun 2026
@@ -306,7 +308,7 @@ content:
 
                     Donghu Kim\*, Youngdo Lee\*, Minho Park, Kinam Kim, Takuma Seno, <u>I Made Aswin Nahrendra</u>, Sehee Min, Daniel Palenicek, Florian Vogt, Danica Kragic, Jan Peters, Jaegul Choo, and Hojoon Lee (\*Equal contribution)
 
-                    <mark>RSS, 2026</mark>
+                    <mark>RSS, 2026</mark> · **Outstanding Paper Award**
 
                     <a href="https://arxiv.org/abs/2604.04539"><i class="fas fa-file-pdf"></i> Paper</a>  <a href="https://holiday-robot.github.io/FlashSAC/"><i class="fas fa-globe"></i> Project</a>
 
